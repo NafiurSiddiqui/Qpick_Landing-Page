@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="sass/main.scss" />
+    <title>Quick Pay</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="src/Logo.svg" alt="QuickPay Logo" class="header__logo" />
+      <nav>
+        <ul class="header__nav-container">
+          <li class="header__nav"><a href="#"> Home </a></li>
+          <li class="header__nav"><a href="#">Features</a></li>
+          <li class="header__nav"><a href="#">Pricing</a></li>
+          <li class="header__nav"><a href="#">Testimonials</a></li>
+          <li class="header__nav"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn__sign-in" id="navBtn__sign-in">Get Started</button>
+    </header>
+
+    <section class="hero">
+      <h1 class="hero__header">Effectively Manage Your Finance On The Go!</h1>
+      <p class="hero__sub-header">
+        One app to meet your financial management need.Your very own pocket
+        assistant at your service. You can get
+        <span class="hero__subheader-bold"> 50% discount</span> during the
+        software launching period.
+      </p>
+
+      <div class="hero__btn-container">
+        <button class="btn__sign-in">Get Started</button>
+        <button class="hero__btn-vdo">Watch A Video</button>
+      </div>
+    </section>
+
+    <section class="hero__image-container">
+      <img
+        src="src/software.svg       "
+        alt="Software_illustration"
+        class="hero__image"
+      />
+    </section>
+
+    <section class="big_corp-user">
+      <div
+        class="background__circle-right"
+        style="
+          border: 1px solid blue;
+          width: 50em;
+          height: 50em;
+          border-radius: 50%;
+        "
+        aria-label="design"
+      ></div>
+      <div
+        class="background__circle-left"
+        style="
+          border: 1px solid blue;
+          width: 30em;
+          height: 30em;
+          border-radius: 50%;
+        "
+        aria-label="design"
+      ></div>
+
+      <h4 class="big__corp-heading">
+        Trusted by people from the many big companies
+      </h4>
+
+      <article class="big__corp-logo-container">
+        <span
+          id="google"
+          style="
+            font-family: 'Poiret One', cursive;
+            font-size: 2em;
+            font-weight: bolder;
+          "
+        >
+          Google
+        </span>
+
+        <img src="src/paypal.svg" alt="Paypal logo" />
+        <img src="src/amazon.svg" alt="Amazon logo" />
+        <img src="src/Heineken.svg" alt="heineken logo" />
+        <img src="src/nestle.svg" alt="nestle logo" />
+      </article>
+    </section>
+
+    <section class="features">
+      <article class="features__texts">
+        <h3 class="features__heading">
+          Monitor Transactions live with Quick Pick
+        </h3>
+
+        <div class="features__texts-card-1">
+          <div class="features__text-icon">
+            <img src="src/transaction_icon.svg" alt="transaction icon" />
+          </div>
+          <article class="features__text-container">
+            <h3 class="features__text-heading">
+              Transfer between Q-user and our partners
+            </h3>
+
+            <p class="features__text-text">
+              Easily make transactions between Q-users and our partners.With
+              each unique double layered encryption,ensure a confirm transa
+              ctions with no middle man in between leav ing you with less worry
+              and more involved into your day to day bussiness transactions
+            </p>
+          </article>
+        </div>
+
+        <div class="features__texts-card-2">
+          <div class="features__text-icon">
+            <span class="Emanager_font">E</span>
+          </div>
+          <article class="features__text-container">
+            <h3 class="features__text-heading">Manager at your service 24/7</h3>
+
+            <p class="features__text-text">
+              Let your digital manager manage and keep track of all of your
+              transactions and activites.Nothing fishy should happen to your
+              belongings.Let Em take care of your balance.
+            </p>
+          </article>
+        </div>
+
+        <div class="features__texts-card-3">
+          <div class="features__text-icon">
+            <img src="src/loan_icon.svg" alt="getting loan icon" />
+          </div>
+          <article class="features__text-container">
+            <h3 class="features__text-heading">Request Quick Loan</h3>
+
+            <p class="features__text-text">
+              saw something mindblowing? Time was running out? not enough
+              balance? No worries! Qpick got your back. with one click and a
+              confirmation, fill your Qwallet on the go.
+            </p>
+          </article>
+        </div>
+
+        <div class="features__texts-card-4">
+          <div class="features__text-icon">
+            <img src="src/splitBill_icon.svg" alt="split Bill icon" />
+          </div>
+          <article class="features__text-container">
+            <h3 class="features__text-heading">Split Bill</h3>
+
+            <p class="features__text-text">
+              With Q-pick's quick witty button,let your Em handles the bill for
+              you while you savour each moments with your friends,familly,loved
+              one or business meetings.
+            </p>
+          </article>
+        </div>
+      </article>
+
+      <article class="features__decoration">
+        <div class="features__decoration-images">
+          <img src="src/Income_card.svg" alt="Income card" />
+          <img src="src/expense_card.svg" alt="Expense card" />
+          <img src="src/Emanager_feature_card.svg" alt="Emanager card" />
+          <img src="src/Chart.svg" alt="Chart card" />
+          <img src="src/Popup_manager.svg" alt="Manager UI" />
+          <img src="src/Split-bills_card.svg" alt="Split Bill Card" />
+        </div>
+
+        <div class="features__decoration-gradiant"></div>
+      </article>
+    </section>
+
+    <section class="pricing">
+      <h3 class="pricing__heading">Power up your E-banking with Our Pricing</h3>
+
+      <p class="pricing__sub-heading">
+        Pick one of the plan to your needs and leave the rest upto Q-pick to
+        deal and manage for you.
+      </p>
+      <!-- Pricing cards -->
+
+      <article class="pricing__cards">
+        <div class="pricing__card1">
+          <h3 class="pricing__card-heading">Beginner</h3>
+
+          <p class="pricing__card-sub-heading">
+            <span class="pricing__card-sub-heading__price">$35</span>/Month
+          </p>
+
+          <ul class="pricing__card-services">
+            <li class="pricing__card-service">Quick Loan</li>
+            <li class="pricing__card-service">Analytics</li>
+            <li class="pricing__card-service">Customer Service (10/7)</li>
+          </ul>
+
+          <button class="nav__sign-in">Get Started</button>
+        </div>
+
+        <div class="pricing__card2">
+          <h3 class="pricing__card-heading">Popular</h3>
+
+          <p class="pricing__card-sub-heading">
+            <span class="pricing__card-sub-heading__price">$50</span>/Month
+          </p>
+
+          <ul class="pricing__card-services">
+            <li class="pricing__card-service">Quick Loan</li>
+            <li class="pricing__card-service">Analytics</li>
+            <li class="pricing__card-service">Customer Service (24/7)</li>
+            <li class="pricing__card-service">messaging</li>
+            <li class="pricing__card-service">Split Bill</li>
+          </ul>
+
+          <button class="nav__sign-in">Get Started</button>
+        </div>
+
+        <div class="pricing__card3">
+          <h3 class="pricing__card-heading">Special</h3>
+
+          <p class="pricing__card-sub-heading">
+            <span class="pricing__card-sub-heading__price">$65</span>/Month
+          </p>
+
+          <ul class="pricing__card-services">
+            <li class="pricing__card-service">Quick Loan</li>
+            <li class="pricing__card-service">Full-feature</li>
+            <li class="pricing__card-service">Customer Service (24/7)</li>
+            <li class="pricing__card-service">Themes</li>
+            <li class="pricing__card-service">No-ads</li>
+            <li class="pricing__card-service">Currency Conversion</li>
+          </ul>
+
+          <button class="nav__sign-in">Get Started</button>
+        </div>
+      </article>
+
+      <div
+        class="background__circle-right"
+        style="
+          border: 1px solid blue;
+          width: 10em;
+          height: 10em;
+          border-radius: 50%;
+        "
+        aria-label="design"
+      ></div>
+    </section>
+
+    <!-- testimonial -->
+    <section class="testimonial">
+      <h3 class="testimonial__heading">What Q-pick users says</h3>
+      <p class="testimonial__sub-heading">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum,
+        inventore!
+      </p>
+
+      <article class="testimonial__cards">
+        <div class="testimonial__1">
+          <div class="testimonial__image1"></div>
+          <p class="testimonial__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            totam nostrum omnis temporibus architecto aliquid distinctio
+            voluptatum ab quos itaque. Numquam impedit suscipit iusto nesciunt
+            et velit itaque corporis voluptatem!
+          </p>
+
+          <div class="testimonial__review">
+            <p class="testimonial__name">Vinicius Wieswafer</p>
+
+            <span class="testimonial__rating-number"> 4.5/5 </span>
+            <div class="stars">
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star half"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial__2">
+          <div class="testimonial__image2"></div>
+          <p class="testimonial__text">
+            nihil tempore officia illo. Veniam eum voluptate laboriosam
+            dignissimos aliquid, pariatur dolores culpa perferendis vel? Dolor
+            magni laborum possimus hic. Commodi porro nam placeat rerum repellat
+            vero ad, dignissimos atque impedit.
+          </p>
+
+          <div class="testimonial__review">
+            <p class="testimonial__name">Rui Silvastallone</p>
+
+            <span class="testimonial__rating-number"> 4.5/5 </span>
+            <div class="stars">
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star on"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial__3">
+          <div class="testimonial__image3"></div>
+          <p class="testimonial__text">
+            voluptatem molestias fuga mollitia aut consectetur est eius rerum
+            recusandae quam. A ex, quisquam dolorum, repellendus, recusandae
+            ducimus ratione totam quia vitae eos exercitationem! provident
+            eligendi quaerat rerum necessitatibus accusamus qui sunt dolorum
+            reiciendis! Temporibus, voluptate sit? Temporibus soluta iste neque
+            earum nobis officiis pariatur sequi corrupti adipisci!
+          </p>
+
+          <div class="testimonial__review">
+            <p class="testimonial__name">Joseph Gonza</p>
+
+            <span class="testimonial__rating-number"> 4.5/5 </span>
+            <div class="stars">
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star half"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial__4">
+          <div class="testimonial__image4"></div>
+          <p class="testimonial__text">
+            voluptatem molestias fuga mollitia aut consectetur est eius rerum
+            recusandae quam. A ex, quisquam dolorum, repellendus, recusandae
+            ducimus ratione totam quia vitae eos exercitationem! provident
+            eligendi quaerat rerum necessitatibus accusamus qui sunt dolorum
+            reiciendis! Temporibus, voluptate sit? Temporibus soluta iste neque
+            earum nobis officiis pariatur sequi corrupti adipisci!
+          </p>
+
+          <div class="testimonial__review">
+            <p class="testimonial__name">Erik Locopinoccio</p>
+
+            <span class="testimonial__rating-number"> 5/5 </span>
+            <div class="stars">
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star half"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial__5">
+          <div class="testimonial__image5"></div>
+          <p class="testimonial__text">
+            provident eligendi quaerat rerum necessitatibus accusamus qui sunt
+            dolorum reiciendis! Temporibus, voluptate sit? Temporibus soluta
+            iste neque earum nobis officiis pariatur sequi corrupti adipisci!
+          </p>
+
+          <div class="testimonial__review">
+            <p class="testimonial__name">Sum Ting Wong</p>
+
+            <span class="testimonial__rating-number"> 4/5 </span>
+            <div class="stars">
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial__6">
+          <div class="testimonial__image6"></div>
+          <p class="testimonial__text">
+            recusandae ducimus ratione totam quia vitae eos exercitationem!
+            provident eligendi quaerat rerum necessitatibus accusamus qui sunt
+            dolorum reiciendis! Temporibus, voluptate sit? Temporibus soluta
+            iste neque earum nobis officiis pariatur sequi corrupti adipisci!
+          </p>
+
+          <div class="testimonial__review">
+            <p class="testimonial__name">Peter Dawae</p>
+
+            <span class="testimonial__rating-number"> 5/5 </span>
+            <div class="stars">
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star on"></span>
+              <span class="star on"></span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <div class="testimonial__cards-navigator">
+        <span class="testimonial__cards-navigator_left"> < </span>
+
+        <div
+          class="testimonial__cards-dot"
+          style="
+            height: 10px;
+            width: 13px;
+            background: silver;
+            border: 1px solid black;
+            border-radius: 50%;
+          "
+        ></div>
+        <div
+          class="testimonial__cards-dot"
+          style="
+            height: 10px;
+            width: 13px;
+            background: silver;
+            border: 1px solid black;
+            border-radius: 50%;
+          "
+        ></div>
+        <span class="testimonial__cards-navigator_right"> > </span>
+      </div>
+    </section>
+
+    <!-- last page -->
+
+    <section class="last-page">
+      <article class="last-page__newsletter-container">
+        <h3 class="last-page__newsletter-header">
+          Subscribe To Our Newsletter
+        </h3>
+
+        <p class="last-page__newsletter-sub-heading">
+          Subsrcibe to our newsletter to get the latest news , offers and
+          updates to meet your need.
+        </p>
+
+        <div class="last-page__newsletter-input">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email Address"
+          />
+
+          <button type="submit">subscribe</button>
+        </div>
+      </article>
+
+      <footer class="footer">
+        <article class="footer__nav-container">
+          <section class="footer__left">
+            <img src="src/Logo.svg" alt="Q-pick logo" />
+            <p class="footer__left-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              ullam voluptatibus aliquam dignissimos, deleniti quam doloremque
+              fuga voluptatum ex dicta praesentium quod, excepturi, molestias
+              perferendis placeat vitae inventore corrupti ipsa.
+            </p>
+
+            <ul class="footer__left-social-icon-container">
+              <li class="footer__left-social-icon">
+                <a href="#"> <i class="fab fa-facebook"></i></a>
+              </li>
+              <li class="footer__left-social-icon">
+                <a href="#"> <i class="fab fa-twitter"></i></a>
+              </li>
+              <li class="footer__left-social-icon">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li class="footer__left-social-icon">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </section>
+
+          <section class="footer__middle">
+            <article class="footer__middle__company">
+              <h4 class="footer__middle__company-header">Company</h4>
+              <ul class="footer__middle__nav-container">
+                <li class="footer__middle__nav"><a href="#">Why Q-pick?</a></li>
+                <li class="footer__middle__nav"><a href="#">Membership</a></li>
+                <li class="footer__middle__nav"><a href="#">About Us</a></li>
+                <li class="footer__middle__nav"><a href="#">Reviews</a></li>
+                <li class="footer__middle__nav"><a href="#">Features</a></li>
+                <li class="footer__middle__nav"><a href="#">Security</a></li>
+              </ul>
+            </article>
+          </section>
+
+          <section class="footer__middle_nav-right">
+            <article class="footer__middle__company">
+              <h4 class="footer__middle__company-header">Support</h4>
+              <ul class="footer__middle__nav-container">
+                <li class="footer__middle__nav"><a href="#">Help Center</a></li>
+                <li class="footer__middle__nav"><a href="#">Contact Us</a></li>
+                <li class="footer__middle__nav"><a href="#">Carriers</a></li>
+              </ul>
+            </article>
+          </section>
+
+          <section class="footer__right_download">
+            <h4 class="footer__right_download-heading">Get Q-pick</h4>
+            <div class="footer__right_download-apple">
+              <a href="#">
+                <i class="fab fa-apple">
+                  <p class="footer__right_download-apple-text">Apple Store</p>
+                </i>
+              </a>
+            </div>
+
+            <div class="footer__right_download-playstore">
+              <a href="#">
+                <i class="fab fa-google-play">
+                  <p class="footer__right_download-apple-text">
+                    Google Play Store
+                  </p>
+                </i>
+              </a>
+            </div>
+          </section>
+        </article>
+
+        <aritcle class="footer__copyright">
+          <p class="footer__copyright-text">&copy; Quick Pay Inc. 2021</p>
+        </aritcle>
+      </footer>
+    </section>
+  </body>
+</html>

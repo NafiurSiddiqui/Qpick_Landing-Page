@@ -1,0 +1,9 @@
+@mixin flexCentered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin borderTest {
+  border: 1px solid black;
+}
