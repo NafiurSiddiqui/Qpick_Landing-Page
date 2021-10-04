@@ -1,0 +1,56 @@
+.pricing {
+  height: 100vh;
+  border-top: 2px solid khaki;
+  border-bottom: 2px solid khaki;
+  padding: 6em;
+  &__heading {
+    color: $color-heading;
+    font-size: $fontSize-L;
+    margin-bottom: 1em;
+  }
+
+  &__sub-heading {
+    color: $color-para;
+    font-size: $fontSize-h2;
+  }
+
+  &__cards {
+    // border: $borderTest;
+    @include flexCentered;
+  }
+
+  &__card {
+    border: 2px solid #464952;
+    border-radius: 0.6em;
+    padding: 2em;
+    width: 40em;
+    height: 60em;
+    margin: 3em 2em;
+    &-heading {
+      color: $color-heading;
+      margin-bottom: 1em;
+      font-size: $fontSize-mL;
+    }
+
+    &__sub-heading {
+      color: $color-para;
+      font-size: $fontSize-Sm;
+
+      &__price {
+        font-weight: bold;
+        font-size: $fontSize-Lm;
+      }
+    }
+
+    &-service {
+      color: $color-para;
+      padding: 0.8em;
+      font-size: $fontSize-Sm;
+      border: $borderTest;
+
+      &__check-icon {
+        color: whitesmoke;
+      }
+    }
+  }
+}

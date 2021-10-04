@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 .hero {
-  background: linear-gradient(
-    295.61deg,
-    rgba(76, 4, 88, 0.61) 17.65%,
-    rgba(16, 60, 120, 0.81) 50.67%,
-    rgba(0, 166, 176, 0.94) 88.13%
-  );
   height: 100vh;
-  padding: 5em;
-  @include flexCentered;
-  flex-direction: column;
+  position: relative;
+  z-index: 20;
+  .hero__content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    background: linear-gradient(
+      295.61deg,
+      rgb(142, 72, 155),
+      rgba(16, 60, 120),
+      rgba(0, 166, 176, 0.94)
+    );
+  }
 
   &__header {
     font-size: 4rem;
@@ -18,7 +26,7 @@
     letter-spacing: 1px;
     margin-bottom: 0.4em;
     margin-top: -2em;
-    color: #fefefb;
+    color: $color-heading;
     width: 52vw;
   }
 
@@ -44,7 +52,7 @@
     font-weight: 600;
     letter-spacing: 0.8px;
     color: #026cd7;
-    background-color: #fefefb;
+    background-color: $color-heading;
     border-radius: 8px;
     font-family: 'Reem Kufi', sans-serif;
     margin-left: 2em;

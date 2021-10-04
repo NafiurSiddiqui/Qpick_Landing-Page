@@ -18,6 +18,8 @@ html {
 
 body {
   font-family: 'Red Hat Text', sans-serif;
+  text-align: center;
+  overflow-x: hidden;
 }
 
 a {
@@ -31,11 +33,21 @@ li {
 .btn__sign-in {
   padding: 0.8em;
   width: 11em;
-
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
   color: ivory;
   background-color: #0b233b;
   border-radius: 8px;
   font-family: 'Reem Kufi', sans-serif;
+}
+
+.hero__image {
+  width: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 50em;
+}
+
+.content_container {
+  background-color: #050d21;
 }

@@ -1,0 +1,97 @@
+.big_corp {
+  height: 100vh;
+  width: 100%;
+  border-bottom: 1px solid khaki;
+  @include flexCentered;
+  flex-direction: column;
+  & .heading {
+    color: $color-heading;
+    letter-spacing: 1.7px;
+    font-size: 3rem;
+    margin-bottom: 2em;
+  }
+
+  & .logo-container {
+    @include flexCentered;
+
+    #google {
+      color: #aeaeae;
+      // border: 1px solid white;
+      font-family: 'Poiret One', cursive;
+      font-size: 4rem;
+      font-weight: bolder;
+    }
+
+    & .logos {
+      width: 12em;
+      height: 12em;
+      margin: 0 4em;
+      border: 1px solid white;
+    }
+
+    #amazon {
+      padding-top: 0.8em;
+    }
+
+    #heineken {
+      width: 13em;
+      height: 12em;
+      padding-bottom: 1em;
+    }
+  }
+  .background__circle-right {
+    background: linear-gradient(
+      180deg,
+      rgba(76, 4, 88, 0.61) 17.65%,
+      rgba(16, 60, 120, 0.81) 50.67%,
+      rgba(0, 166, 175, 0.87) 88.13%
+    );
+    width: 50em;
+    height: 50em;
+    border-radius: 50%;
+    position: absolute;
+    right: -15em;
+    top: 63em;
+    text-align: center;
+    z-index: 10;
+    @include flexCentered;
+    &-background {
+      background: linear-gradient(
+        rgba(5, 13, 33, 0),
+        rgba(5, 13, 33),
+        rgb(5, 13, 33)
+      );
+      width: 98%;
+      height: 98%;
+      border-radius: 50%;
+    }
+  }
+
+  .background__circle-left {
+    background: linear-gradient(
+      100deg,
+      rgba(113, 2, 133, 0.61),
+      rgba(13, 78, 168, 0.81),
+      rgba(0, 166, 175, 0.87)
+    );
+    width: 28em;
+    height: 28em;
+    border-radius: 50%;
+    @include flexCentered;
+    position: absolute;
+    top: 136em;
+    left: -15em;
+
+    &-background {
+      position: relative;
+      background: linear-gradient(
+        rgb(5, 13, 33),
+        rgb(5, 13, 33),
+        rgb(5, 13, 33)
+      );
+      width: 98%;
+      height: 98%;
+      border-radius: 50%;
+    }
+  }
+}
