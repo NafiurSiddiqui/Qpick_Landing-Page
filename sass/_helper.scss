@@ -5,16 +5,27 @@
 }
 
 @mixin borderTest {
-  border: 1px solid black;
+  border: 1px solid rgb(250, 151, 151);
 }
 
+@mixin sectionBorderTest {
+  border-top: 2px solid khaki;
+  border-bottom: 2px solid khaki;
+}
 $color-heading: #fefefb;
 $color-para: #ececec;
 $borderTest: 1px solid khaki;
 
+// font size
 $fontSize-h2: 2rem;
 $fontSize-L: 3rem;
 $fontSize-mL: 2.5rem;
 $fontSize-Lm: 2.4rem;
 $fontSize-m: 2rem;
 $fontSize-Sm: 1.6rem;
+$fontSize-S: 1.4rem;
+$fontSize-SS: 1.2rem;
+
+// star color of the reviews
+
+$color-star: rgb(231, 198, 8);

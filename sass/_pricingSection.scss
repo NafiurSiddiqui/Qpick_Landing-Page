@@ -1,7 +1,5 @@
 .pricing {
   height: 100vh;
-  border-top: 2px solid khaki;
-  border-bottom: 2px solid khaki;
   padding: 6em;
   &__heading {
     color: $color-heading;
@@ -14,6 +12,22 @@
     font-size: $fontSize-h2;
   }
 
+  table,
+  tr,
+  td {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  tr,
+  td {
+    // border: $borderTest;
+    border-top: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+  }
+
   &__cards {
     // border: $borderTest;
     @include flexCentered;
@@ -24,8 +38,12 @@
     border-radius: 0.6em;
     padding: 2em;
     width: 40em;
-    height: 60em;
+    height: 80vh;
     margin: 3em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     &-heading {
       color: $color-heading;
       margin-bottom: 1em;
@@ -42,15 +60,42 @@
       }
     }
 
+    & .container {
+      padding: 1em;
+      // background-color: lawngreen;
+      width: 100%;
+      min-width: 15em;
+      color: $color-para;
+    }
     &-service {
       color: $color-para;
       padding: 0.8em;
       font-size: $fontSize-Sm;
-      border: $borderTest;
+    }
 
-      &__check-icon {
-        color: whitesmoke;
+    &__icon-check {
+      font-size: $fontSize-Sm;
+      font-weight: bolder;
+      text-align: center;
+      &_container {
+        background: rgb(236, 235, 235);
+        border-radius: 50%;
+        padding: 0.2em;
+        color: rgb(39, 39, 39);
+        margin-right: 1em;
       }
+    }
+
+    &__btn {
+      padding: 0.8em;
+      width: 11em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 500;
+      color: ivory;
+      background-color: #0569cd;
+      border-radius: 8px;
+      font-family: 'Reem Kufi', sans-serif;
+      border: 0;
     }
   }
 }
