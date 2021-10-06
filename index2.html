@@ -392,17 +392,6 @@
             <button class="pricing__card__btn">Get Started</button>
           </div>
         </article>
-
-        <div
-          class="background__circle-right"
-          style="
-            border: 1px solid blue;
-            width: 10em;
-            height: 10em;
-            border-radius: 50%;
-          "
-          aria-label="design"
-        ></div>
       </section>
 
       <!-- testimonial -->
@@ -556,47 +545,36 @@
         
         </article>
 
-        <div class="testimonial__cards-navigator">
-          <span class="testimonial__cards-navigator_left"> < </span>
+        <div class="testimonial__slide-navigator-container">
+          <span class="testimonial__slide-navigator left"><</span>
 
           <div
-            class="testimonial__cards-dot"
-            style="
-              height: 10px;
-              width: 13px;
-              background: silver;
-              border: 1px solid black;
-              border-radius: 50%;
-            "
+            class="testimonial__slide-dot active"
           ></div>
           <div
-            class="testimonial__cards-dot"
-            style="
-              height: 10px;
-              width: 13px;
-              background: silver;
-              border: 1px solid black;
-              border-radius: 50%;
-            "
+            class="testimonial__slide-dot"
           ></div>
-          <span class="testimonial__cards-navigator_right"> > </span>
+          <span class="testimonial__slide-navigator right">></span>
         </div>
       </section>
-
+        <div class="background__circle" aria-label="design">
+          <div class="background__circle-background"></div>
+        </div>
       <!-- last page -->
 
-      <section class="last-page">
-        <article class="last-page__newsletter-container">
-          <h3 class="last-page__newsletter-header">
+      <section class="bottom">
+        <article class="bottom__newsletter container">
+          <div class="bottom__newsletter-content">
+            <h3 class="bottom__newsletter-header">
             Subscribe To Our Newsletter
           </h3>
 
-          <p class="last-page__newsletter-sub-heading">
+          <p class="bottom__newsletter__sub-heading">
             Subsrcibe to our newsletter to get the latest news , offers and
             updates to meet your need.
           </p>
 
-          <div class="last-page__newsletter-input">
+          <div class="bottom__newsletter-input">
             <input
               type="email"
               name="email"
@@ -604,19 +582,21 @@
               placeholder="Enter Your Email Address"
             />
 
-            <button type="submit">subscribe</button>
+            <button type="submit" class="bottom__newsletter-input__btn">subscribe</button>
           </div>
+          </div>
+          
+          
         </article>
 
         <footer class="footer">
           <article class="footer__nav-container">
             <section class="footer__left">
-              <img src="src/Logo.svg" alt="Q-pick logo" />
+              <img src="src/Logo.svg" alt="Quick pick logo" class="footer__left-logo"/>
               <p class="footer__left-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Libero
                 ullam voluptatibus aliquam dignissimos, deleniti quam doloremque
-                fuga voluptatum ex dicta praesentium quod, excepturi, molestias
-                perferendis placeat vitae inventore corrupti ipsa.
+                fuga voluptatum.
               </p>
 
               <ul class="footer__left-social-icon-container">
@@ -638,55 +618,58 @@
             <section class="footer__middle">
               <article class="footer__middle__company">
                 <h4 class="footer__middle__company-header">Company</h4>
-                <ul class="footer__middle__nav-container">
-                  <li class="footer__middle__nav">
+                <ul class="footer__middle-nav-container">
+                  <li class="footer__middle-nav">
                     <a href="#">Why Q-pick?</a>
                   </li>
-                  <li class="footer__middle__nav">
+                  <li class="footer__middle-nav">
                     <a href="#">Membership</a>
                   </li>
-                  <li class="footer__middle__nav"><a href="#">About Us</a></li>
-                  <li class="footer__middle__nav"><a href="#">Reviews</a></li>
-                  <li class="footer__middle__nav"><a href="#">Features</a></li>
-                  <li class="footer__middle__nav"><a href="#">Security</a></li>
+                  <li class="footer__middle-nav"><a href="#">About Us</a></li>
+                  <li class="footer__middle-nav"><a href="#">Reviews</a></li>
+                  <li class="footer__middle-nav"><a href="#">Features</a></li>
+                  <li class="footer__middle-nav"><a href="#">Security</a></li>
                 </ul>
               </article>
             </section>
 
-            <section class="footer__middle_nav-right">
-              <article class="footer__middle__company">
-                <h4 class="footer__middle__company-header">Support</h4>
-                <ul class="footer__middle__nav-container">
-                  <li class="footer__middle__nav">
+            <section class="footer__middle nav-right">
+              <article class="footer__middle__company__right">
+                <h4 class="footer__middle__company__right-header">Support</h4>
+                <ul class="footer__middle-nav-container">
+                  <li class="footer__middle-nav">
                     <a href="#">Help Center</a>
                   </li>
-                  <li class="footer__middle__nav">
+                  <li class="footer__middle-nav">
                     <a href="#">Contact Us</a>
                   </li>
-                  <li class="footer__middle__nav"><a href="#">Carriers</a></li>
+                  <li class="footer__middle-nav"><a href="#">Carriers</a></li>
                 </ul>
               </article>
             </section>
 
-            <section class="footer__right_download">
-              <h4 class="footer__right_download-heading">Get Q-pick</h4>
-              <div class="footer__right_download-apple">
-                <a href="#">
-                  <i class="fab fa-apple">
-                    <p class="footer__right_download-apple-text">Apple Store</p>
+            <section class="footer__right__download">
+             <article class="footer__right__download content">
+               <h4 class="footer__right__download-header">Get Q-pick</h4>
+              <div class="footer__right__download-apple">
+                <a href="#" id="apple">
+                  <i class="fab fa-apple" id="apple-logo">
                   </i>
+                   <p class="footer__right__download-apple-text">Apple Store</p>
                 </a>
               </div>
 
-              <div class="footer__right_download-playstore">
-                <a href="#">
-                  <i class="fab fa-google-play">
-                    <p class="footer__right_download-apple-text">
+              <div class="footer__right__download-playstore" >
+                <a href="#" id="google-play">
+                  <i class="fab fa-google-play" id="google-play-logo">
+                  </i>
+                   <p class="footer__right__download-playstore-text">
                       Google Play Store
                     </p>
-                  </i>
                 </a>
               </div>
+
+             </article>
             </section>
           </article>
 
