@@ -1,31 +1,36 @@
-.big_corp {
+.big__corp {
   height: 100vh;
   width: 100%;
   @include flexCentered;
   flex-direction: column;
-  & .heading {
+  &-header {
     color: $color-heading;
     letter-spacing: 1.7px;
     font-size: 3rem;
     margin-bottom: 2em;
   }
 
-  & .logo-container {
+  &__logo-container {
     @include flexCentered;
 
     #google {
       color: #aeaeae;
       // border: 1px solid white;
       font-family: 'Poiret One', cursive;
-      font-size: 4rem;
+      font-size: 3rem;
       font-weight: bolder;
+      @media screen and (max-width: 550px) {
+        font-size: 2rem;
+      }
     }
 
     & .logos {
-      width: 12em;
-      height: 12em;
-      margin: 0 4em;
+      // width: 12em;
+      // height: 12em;
+      // margin: 0 4em;
       // border: 1px solid white;
+      width: 16%;
+      padding: 0 1em;
     }
 
     #amazon {
@@ -33,9 +38,9 @@
     }
 
     #heineken {
-      width: 13em;
-      height: 12em;
-      padding-bottom: 1em;
+      // width: 13em;
+      // height: 12em;
+      padding-bottom: 0.8em;
     }
   }
   .background__circle-right {
@@ -49,8 +54,8 @@
     height: 50em;
     border-radius: 50%;
     position: absolute;
-    right: -15em;
-    top: 63em;
+    margin-left: 26%;
+    top: 57%;
     text-align: center;
     z-index: 10;
     @include flexCentered;
@@ -63,6 +68,25 @@
       width: 98%;
       height: 98%;
       border-radius: 50%;
+    }
+
+    @media screen and (max-width: 800px) {
+      // margin-left: 20%;
+      width: 40em;
+      height: 40em;
+      top: 62%;
+    }
+    @media screen and (max-width: 520px) {
+      margin-left: -1%;
+      width: 30em;
+      height: 30em;
+      top: 70%;
+    }
+    @media screen and (max-width: 380px) {
+      margin-left: 10%;
+      width: 20em;
+      height: 20em;
+      top: 70%;
     }
   }
 

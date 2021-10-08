@@ -4,7 +4,7 @@
 .header {
   // @include borderTest;
   @include flexCentered;
-
+  height: 10vh;
   width: 100%;
   justify-content: space-between;
   font-family: 'Reem Kufi', sans-serif;
@@ -14,6 +14,10 @@
     // @include borderTest;
     width: 100px;
     margin-left: 2%;
+
+    @media screen and (max-width: 361px) {
+      width: 25%;
+    }
   }
 
   ul > li > a {
@@ -86,23 +90,20 @@
       order: 2;
     }
     @media screen and (max-width: 553px) {
-      margin-right: -36%;
-      width: 8em;
-      font-size: $fontSize-SS;
-      order: 2;
+      display: none;
     }
   }
 
   &__navbars-container {
-    width: 5em;
+    width: 4em;
     height: 5em;
-    padding: 0.2em;
+    padding: 0.1em;
     display: none;
-
+    border: $borderTest;
     @media screen and (max-width: 783px) {
       display: inline-block;
       order: 3;
-      margin: 0 1em 0 2em;
+      // margin: 0 1em 0 2em;
     }
   }
 
@@ -110,7 +111,7 @@
     &_top,
     &_middle,
     &_bottom {
-      width: 4em;
+      width: 3em;
       height: 0.2em;
       background: rgb(226, 226, 226);
       display: inline-block;
@@ -130,5 +131,9 @@
     //     position: absolute;
     //   }
     // }
+  }
+
+  @media screen and (max-width: 380px) {
+    padding: 1em 1em 0 0;
   }
 }

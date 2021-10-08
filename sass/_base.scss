@@ -14,6 +14,18 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  @media screen and (max-width: 675px) {
+    .hero__header,
+    .big__corp.header,
+    .pricing__header,
+    .bottom__newsletter-header {
+      font-size: $fontSize-h1 - 1rem;
+    }
+
+    h2 {
+      font-size: $fontSize-h2 - 1rem;
+    }
+  }
 }
 
 body {
@@ -44,7 +56,7 @@ li {
   }
 }
 
-.hero__btn-vdo {
+button.hero__btn-vdo {
   padding: 0.8em;
   width: 11em;
   font-weight: 600;

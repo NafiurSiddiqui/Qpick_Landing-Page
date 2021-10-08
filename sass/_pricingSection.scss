@@ -3,9 +3,9 @@ $btn-bg: #0569cd;
 .pricing {
   height: 100vh;
   padding: 6em;
-  &__heading {
+  &__header {
     color: $color-heading;
-    font-size: $fontSize-L;
+    font-size: $fontSize-h1-m;
     margin-bottom: 1em;
   }
 
