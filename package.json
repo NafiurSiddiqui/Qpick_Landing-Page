@@ -4,7 +4,7 @@
   "description": "landing page",
   "main": "index.html",
   "scripts": {
-    "start": "parcel run index2.html",
+    "start": "parcel run index.html",
     "build": "parcel build index.html"
   },
   "author": "Nafi",

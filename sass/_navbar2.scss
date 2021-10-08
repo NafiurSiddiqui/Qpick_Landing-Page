@@ -25,26 +25,26 @@
     }
   }
 
-  ul {
-    @media screen and (max-width: 783px) {
-      display: block;
-      position: absolute;
-      top: 10%;
-      left: -3%;
-      width: 100%;
-      z-index: 10;
-      li {
-        background: $primary;
+  //   ul {
+  //     @media screen and (max-width: 783px) {
+  //       display: block;
+  //       position: absolute;
+  //       top: 10%;
+  //       left: -3%;
+  //       width: 100%;
+  //       z-index: 10;
+  //       li {
+  //         background: $primary;
 
-        width: 100%;
-        font-size: $fontSize-Sm;
+  //         width: 100%;
+  //         font-size: $fontSize-Sm;
 
-        &:hover {
-          background: linear-gradient(166deg, #005c75, rgb(1, 60, 122));
-        }
-      }
-    }
-  }
+  //         &:hover {
+  //           background: linear-gradient(166deg, #005c75, rgb(1, 60, 122));
+  //         }
+  //       }
+  //     }
+  //   }
   nav {
     // @include borderTest;
     width: 60%;
@@ -52,7 +52,14 @@
     @include flexCentered;
 
     @media screen and (max-width: 783px) {
-      display: none;
+      //   display: none;
+      border: $borderTest;
+      position: fixed;
+      bottom: 0;
+      z-index: 10;
+      background: $primary;
+      width: 100%;
+      right: -0.2%;
     }
   }
   &__nav-container {

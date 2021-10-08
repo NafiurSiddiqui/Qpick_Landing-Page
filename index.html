@@ -20,23 +20,28 @@
     <title>Quick Pay</title>
   </head>
   <body>
-    <header class="header">
+    <section class="hero">
+      <header class="header">
       <img src="src/Logo.svg" alt="QuickPay Logo" class="header__logo" />
       <nav>
         <ul class="header__nav-container">
-          <li class="header__nav"><a href="#"> Home </a></li>
-          <li class="header__nav"><a href="#">Features</a></li>
-          <li class="header__nav"><a href="#">Pricing</a></li>
-          <li class="header__nav"><a href="#">Testimonials</a></li>
-          <li class="header__nav"><a href="#">Contact</a></li>
+          <li class="header__nav"><a href="#home"> Home </a></li>
+          <li class="header__nav"><a href="#features">Features</a></li>
+          <li class="header__nav"><a href="#pricing">Pricing</a></li>
+          <li class="header__nav"><a href="#testimonial">Testimonials</a></li>
+          <li class="header__nav"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-
+    <div class="header__navbars-container">
+      <div class="header__navbars_top"></div>
+      <div class="header__navbars_middle"></div>
+      <div class="header__navbars_bottom"></div>
+    </div>
+    
       <button class="btn__sign-in" id="navBtn__sign-in">Get Started</button>
     </header>
 
-    <section class="hero">
-        <div class="hero__content">
+        <div class="hero__content" id="home">
           <h1 class="hero__header">
             Effectively Manage Your Finance On The Go!
           </h1>
@@ -49,14 +54,18 @@
 
           <div class="hero__btn-container">
             <button class="btn__sign-in">Get Started</button>
-            <button class="hero__btn-vdo">Watch A Video</button>
+            <button class="hero__btn-vdo" id="hero__btn-vdo">Watch A Video</button>
           </div>
           
-          <img
-            src="src/software.svg       "
+       
+              <img
+            src="src/software.svg"
             alt="Software_illustration"
             class="hero__image"
           />
+            
+   
+        
         </div>
       </div>
     </section>
@@ -93,16 +102,18 @@
         </article>
       </section>
 
-      <section class="features">
+      <section class="features" id="features">
         <article class="features__texts">
           <h2 class="features__heading">
             Monitor Transactions live with Quick Pick
           </h2>
 
           <div class="features__texts-card">
-            <div class="features__text-icon">
+          
+              <div class="features__text-icon">
               <img src="src/transaction_icon.svg" alt="transaction icon" />
             </div>
+        
             <article class="features__text-container">
               <h3 class="features__text-heading">
                 Transfer between Q-user and our partners
@@ -210,7 +221,7 @@
       </div>
       </section>
 
-      <section class="pricing">
+      <section class="pricing" id="pricing">
         <h1 class="pricing__heading">
           Power Up Your E-banking With Our Pricing
         </h1>
@@ -222,35 +233,42 @@
         <!-- Pricing cards -->
 
         <article class="pricing__cards">
+
+
           <div class="pricing__card">
             <h3 class="pricing__card-heading">Beginner</h3>
 
             <p class="pricing__card__sub-heading">
               <span class="pricing__card__sub-heading__price">$35</span> /Month
             </p>
-            
-            <div class="pricing__card container">
-             
- <div class="pricing__card-service__check-icon" >
-                  &check;
-                </div>
-              <div class="pricing__card-services">
-                <ul>
-              <li class="pricing__card-service">
-              
-                Quick Loan</li>
-              <li class="pricing__card-service">
-               
-                Analytics</li>
-              <li class="pricing__card-service">
-               
-                Customer Service (10/7)</li>
-            </ul>
-              </div>
+            <!-- table -->
 
-            </div>
-
-            <button class="nav__sign-in">Get Started</button>
+            <table class="pricing__card container">
+              <tr>
+                <td class="pricing__card__icon-check"><span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span></td>
+                <td class="pricing__card-service">Quick Loan</td>
+              </tr>
+              <tr>
+                <td class="pricing__card__icon-check">
+                <span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span>  
+                </td>
+                <td class="pricing__card-service"> Analytics</td>
+              </tr>
+              <tr>
+                <td class="pricing__card__icon-check">
+                  <span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span>  
+                </td>
+                <td class="pricing__card-service"> Customer Service (10/7)</td>
+              </tr>
+            </table>
+     
+            <button class="pricing__card__btn">Get Started</button>
           </div>
 
           <div class="pricing__card">
@@ -260,25 +278,52 @@
               <span class="pricing__card__sub-heading__price">$50</span> /Month
             </p>
 
-            <ul>
-              <li class="pricing__card-service">
-               
-                Quick Loan</li>
-              <li class="pricing__card-service">
-               
-                Analytics</li>
-              <li class="pricing__card-service">
-               
-                Customer Service (24/7)</li>
-              <li class="pricing__card-service">
-               
-                messaging</li>
-              <li class="pricing__card-service">
-               
-                Split Bill</li>
-            </ul>
+ <table class="pricing__card container">
+              <tr>
+                <td class="pricing__card__icon-check"> 
+                  <span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span>
+                  </td>
+                <td class="pricing__card-service">Quick Loan</td>
+              </tr>
+              <tr>
+                <td class="pricing__card__icon-check">  
+                  <span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span>
+                  </td>
+                <td class="pricing__card-service"> Analytics</td>
+              </tr>
+              <tr>
+                <td class="pricing__card__icon-check">  
+                  <span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span>
+                  </td>
+                <td class="pricing__card-service"> Customer Service (24/7)</td>
+              </tr>
+              <tr>
+                <td class="pricing__card__icon-check">  
+                  <span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span>
+                  </td>
+                <td class="pricing__card-service">  messaging</td>
+              </tr>
+              <tr>
+                <td class="pricing__card__icon-check">  
+                  <span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span>
+                  </td>
+                <td class="pricing__card-service">  Split Bill </td>
+              </tr>
+            </table>
 
-            <button class="nav__sign-in">Get Started</button>
+          
+
+            <button class="pricing__card__btn">Get Started</button>
           </div>
 
           <div class="pricing__card">
@@ -288,54 +333,91 @@
               <span class="pricing__card__sub-heading__price">$65</span> /Month
             </p>
 
-            <ul>
-              <li class="pricing__card-service">
-               
-                Quick Loan</li>
-              <li class="pricing__card-service">
-               
-                Full-feature</li>
-              <li class="pricing__card-service">
-               
-                Customer Service (24/7)</li>
-              <li class="pricing__card-service">
-               
-                Themes</li>
-              <li class="pricing__card-service">
-               
-                No-ads</li>
-              <li class="pricing__card-service">
-               
-                Currency Conversion</li>
-            </ul>
+            <table class="pricing__card container">
+              <tr>
+                <td class="pricing__card__icon-check"> 
+                  <span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span>
+                  </td>
+                <td class="pricing__card-service">Quick Loan</td>
+              </tr>
+              <tr>
+                <td class="pricing__card__icon-check">  
+                  <span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span>
+                  </td>
+                <td class="pricing__card-service"> Analytics</td>
+              </tr>
+              <tr>
+                <td class="pricing__card__icon-check">  
+                  <span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span>
+                  </td>
+                <td class="pricing__card-service"> Customer Service (24/7)</td>
+              </tr>
+              <tr>
+                <td class="pricing__card__icon-check">  
+                  <span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span>
+                  </td>
+                <td class="pricing__card-service">  messaging</td>
+              </tr>
+              <tr>
+                <td class="pricing__card__icon-check">  
+                  <span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span>
+                  </td>
+                <td class="pricing__card-service">  Split Bill </td>
+              </tr>
+              <tr>
+                <td class="pricing__card__icon-check">  
+                  <span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span>
+                  </td>
+                <td class="pricing__card-service">  Themes </td>
+              </tr>
+              <tr>
+                <td class="pricing__card__icon-check">  
+                  <span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span>
+                  </td>
+                <td class="pricing__card-service">  No-ads </td>
+              </tr>
+              <tr>
+                <td class="pricing__card__icon-check">  
+                  <span class="pricing__card__icon-check_container">
+                  &check;  
+                  </span>
+                  </td>
+                <td class="pricing__card-service">  Currency Conversion </td>
+              </tr>
+            </table>
 
-            <button class="nav__sign-in">Get Started</button>
+            <button class="pricing__card__btn">Get Started</button>
           </div>
         </article>
-
-        <div
-          class="background__circle-right"
-          style="
-            border: 1px solid blue;
-            width: 10em;
-            height: 10em;
-            border-radius: 50%;
-          "
-          aria-label="design"
-        ></div>
       </section>
 
       <!-- testimonial -->
-      <section class="testimonial">
+      <section class="testimonial" id="testimonial">
         <h3 class="testimonial__heading">What Q-pick users says</h3>
         <p class="testimonial__sub-heading">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum,
-          inventore!
+          Prepare to listen to ultimate lorem ipsum testimonial now!
         </p>
 
         <article class="testimonial__cards">
-          <div class="testimonial__1">
-            <div class="testimonial__image1"></div>
+
+          <div class="testimonial__slide A">
+
+             <div class="testimonial__card">
+            <div class="testimonial__image A"></div>
             <p class="testimonial__text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
               totam nostrum omnis temporibus architecto aliquid distinctio
@@ -346,8 +428,8 @@
             <div class="testimonial__review">
               <p class="testimonial__name">Vinicius Wieswafer</p>
 
-              <span class="testimonial__rating-number"> 4.5/5 </span>
               <div class="stars">
+                <span class="testimonial__rating-number"> 4.5/5 </span>
                 <span class="star on"></span>
                 <span class="star on"></span>
                 <span class="star on"></span>
@@ -357,70 +439,42 @@
             </div>
           </div>
 
-          <div class="testimonial__2">
-            <div class="testimonial__image2"></div>
+          <div class="testimonial__card">
+            <div class="testimonial__image B"></div>
             <p class="testimonial__text">
-              nihil tempore officia illo. Veniam eum voluptate laboriosam
+              Nihil tempore officia illo. Veniam eum voluptate laboriosam
               dignissimos aliquid, pariatur dolores culpa perferendis vel? Dolor
-              magni laborum possimus hic. Commodi porro nam placeat rerum
-              repellat vero ad, dignissimos atque impedit.
-            </p>
-
-            <div class="testimonial__review">
-              <p class="testimonial__name">Rui Silvastallone</p>
-
-              <span class="testimonial__rating-number"> 4.5/5 </span>
-              <div class="stars">
-                <span class="star on"></span>
-                <span class="star on"></span>
-                <span class="star on"></span>
-                <span class="star on"></span>
-                <span class="star on"></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial__3">
-            <div class="testimonial__image3"></div>
-            <p class="testimonial__text">
-              voluptatem molestias fuga mollitia aut consectetur est eius rerum
-              recusandae quam. A ex, quisquam dolorum, repellendus, recusandae
-              ducimus ratione totam quia vitae eos exercitationem! provident
-              eligendi quaerat rerum necessitatibus accusamus qui sunt dolorum
-              reiciendis! Temporibus, voluptate sit? Temporibus soluta iste
-              neque earum nobis officiis pariatur sequi corrupti adipisci!
-            </p>
-
-            <div class="testimonial__review">
-              <p class="testimonial__name">Joseph Gonza</p>
-
-              <span class="testimonial__rating-number"> 4.5/5 </span>
-              <div class="stars">
-                <span class="star on"></span>
-                <span class="star on"></span>
-                <span class="star on"></span>
-                <span class="star on"></span>
-                <span class="star half"></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial__4">
-            <div class="testimonial__image4"></div>
-            <p class="testimonial__text">
-              voluptatem molestias fuga mollitia aut consectetur est eius rerum
-              recusandae quam. A ex, quisquam dolorum, repellendus, recusandae
-              ducimus ratione totam quia vitae eos exercitationem! provident
-              eligendi quaerat rerum necessitatibus accusamus qui sunt dolorum
-              reiciendis! Temporibus, voluptate sit? Temporibus soluta iste
-              neque earum nobis officiis pariatur sequi corrupti adipisci!
+              magni laborum possimus hic.
+              Tampola iron maiden and black sabbath.
             </p>
 
             <div class="testimonial__review">
               <p class="testimonial__name">Erik Locopinoccio</p>
 
-              <span class="testimonial__rating-number"> 5/5 </span>
               <div class="stars">
+                <span class="testimonial__rating-number"> 4.5/5 </span>
+                <span class="star on"></span>
+                <span class="star on"></span>
+                <span class="star on"></span>
+                <span class="star on"></span>
+                <span class="star on"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial__card">
+            <div class="testimonial__image C"></div>
+            <p class="testimonial__text">
+               Molestias fuga mollitia aut consectetur est eius rerum
+              recusandae quam. A ex, quisquam dolorum, repellendus, recusandae
+              ducimus ratione totam quia vitae eos exercitationem! 
+            </p>
+
+            <div class="testimonial__review">
+              <p class="testimonial__name">Rui Silvastallone</p>
+
+              <div class="stars">
+                <span class="testimonial__rating-number"> 4.5/5 </span>
                 <span class="star on"></span>
                 <span class="star on"></span>
                 <span class="star on"></span>
@@ -430,19 +484,45 @@
             </div>
           </div>
 
-          <div class="testimonial__5">
-            <div class="testimonial__image5"></div>
+
+          </div>
+         
+        <div class="testimonial__slide B">
+              <div class="testimonial__card">
+            <div class="testimonial__image D"></div>
             <p class="testimonial__text">
-              provident eligendi quaerat rerum necessitatibus accusamus qui sunt
+              Voluptatem molestias fuga mollitia aut consectetur est eius rerum
+              recusandae quam. A ex, quisquam dolorum, repellendus, recusandae
+              ducimus ratione totam quia vitae eos exercitationem!
+            </p>
+
+            <div class="testimonial__review">
+              <p class="testimonial__name">Joseph Gonzalez</p>
+
+              <div class="stars">
+                <span class="testimonial__rating-number"> 5/5 </span>
+                <span class="star on"></span>
+                <span class="star on"></span>
+                <span class="star on"></span>
+                <span class="star on"></span>
+                <span class="star half"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial__card">
+            <div class="testimonial__image E"></div>
+            <p class="testimonial__text">
+              Provident eligendi quaerat rerum necessitatibus accusamus qui sunt
               dolorum reiciendis! Temporibus, voluptate sit? Temporibus soluta
               iste neque earum nobis officiis pariatur sequi corrupti adipisci!
             </p>
 
             <div class="testimonial__review">
-              <p class="testimonial__name">Sum Ting Wong</p>
+              <p class="testimonial__name">Pete Lavowie</p>
 
-              <span class="testimonial__rating-number"> 4/5 </span>
               <div class="stars">
+                <span class="testimonial__rating-number"> 4/5 </span>
                 <span class="star on"></span>
                 <span class="star on"></span>
                 <span class="star on"></span>
@@ -452,20 +532,18 @@
             </div>
           </div>
 
-          <div class="testimonial__6">
-            <div class="testimonial__image6"></div>
+          <div class="testimonial__card">
+            <div class="testimonial__image F"></div>
             <p class="testimonial__text">
-              recusandae ducimus ratione totam quia vitae eos exercitationem!
+              Recusandae ducimus ratione totam quia vitae eos exercitationem!
               provident eligendi quaerat rerum necessitatibus accusamus qui sunt
-              dolorum reiciendis! Temporibus, voluptate sit? Temporibus soluta
-              iste neque earum nobis officiis pariatur sequi corrupti adipisci!
+              dolorum reiciendi! 
             </p>
 
             <div class="testimonial__review">
-              <p class="testimonial__name">Peter Dawae</p>
-
-              <span class="testimonial__rating-number"> 5/5 </span>
+              <p class="testimonial__name">Sum Ting Wong</p>
               <div class="stars">
+                <span class="testimonial__rating-number"> 5/5 </span>
                 <span class="star on"></span>
                 <span class="star on"></span>
                 <span class="star on"></span>
@@ -474,49 +552,38 @@
               </div>
             </div>
           </div>
+        </div>
+        
         </article>
 
-        <div class="testimonial__cards-navigator">
-          <span class="testimonial__cards-navigator_left"> < </span>
+        <div class="testimonial__slide-navigator-container">
+          <span class="testimonial__slide-navigator left"><</span>
 
           <div
-            class="testimonial__cards-dot"
-            style="
-              height: 10px;
-              width: 13px;
-              background: silver;
-              border: 1px solid black;
-              border-radius: 50%;
-            "
+            class="testimonial__slide-dot active"
           ></div>
           <div
-            class="testimonial__cards-dot"
-            style="
-              height: 10px;
-              width: 13px;
-              background: silver;
-              border: 1px solid black;
-              border-radius: 50%;
-            "
+            class="testimonial__slide-dot"
           ></div>
-          <span class="testimonial__cards-navigator_right"> > </span>
+          <span class="testimonial__slide-navigator right">></span>
         </div>
       </section>
-
+       
       <!-- last page -->
 
-      <section class="last-page">
-        <article class="last-page__newsletter-container">
-          <h3 class="last-page__newsletter-header">
+      <section class="bottom">
+        <article class="bottom__newsletter container">
+          <div class="bottom__newsletter-content">
+            <h3 class="bottom__newsletter-header">
             Subscribe To Our Newsletter
           </h3>
 
-          <p class="last-page__newsletter-sub-heading">
+          <p class="bottom__newsletter__sub-heading">
             Subsrcibe to our newsletter to get the latest news , offers and
             updates to meet your need.
           </p>
 
-          <div class="last-page__newsletter-input">
+          <div class="bottom__newsletter-input">
             <input
               type="email"
               name="email"
@@ -524,19 +591,21 @@
               placeholder="Enter Your Email Address"
             />
 
-            <button type="submit">subscribe</button>
+            <button type="submit" class="bottom__newsletter-input__btn">subscribe</button>
           </div>
+          </div>
+          
+          
         </article>
 
         <footer class="footer">
           <article class="footer__nav-container">
             <section class="footer__left">
-              <img src="src/Logo.svg" alt="Q-pick logo" />
+              <img src="src/Logo.svg" alt="Quick pick logo" class="footer__left-logo"/>
               <p class="footer__left-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Libero
                 ullam voluptatibus aliquam dignissimos, deleniti quam doloremque
-                fuga voluptatum ex dicta praesentium quod, excepturi, molestias
-                perferendis placeat vitae inventore corrupti ipsa.
+                fuga voluptatum.
               </p>
 
               <ul class="footer__left-social-icon-container">
@@ -558,55 +627,58 @@
             <section class="footer__middle">
               <article class="footer__middle__company">
                 <h4 class="footer__middle__company-header">Company</h4>
-                <ul class="footer__middle__nav-container">
-                  <li class="footer__middle__nav">
+                <ul class="footer__middle-nav-container">
+                  <li class="footer__middle-nav">
                     <a href="#">Why Q-pick?</a>
                   </li>
-                  <li class="footer__middle__nav">
+                  <li class="footer__middle-nav">
                     <a href="#">Membership</a>
                   </li>
-                  <li class="footer__middle__nav"><a href="#">About Us</a></li>
-                  <li class="footer__middle__nav"><a href="#">Reviews</a></li>
-                  <li class="footer__middle__nav"><a href="#">Features</a></li>
-                  <li class="footer__middle__nav"><a href="#">Security</a></li>
+                  <li class="footer__middle-nav"><a href="#">About Us</a></li>
+                  <li class="footer__middle-nav"><a href="#">Reviews</a></li>
+                  <li class="footer__middle-nav"><a href="#">Features</a></li>
+                  <li class="footer__middle-nav"><a href="#">Security</a></li>
                 </ul>
               </article>
             </section>
 
-            <section class="footer__middle_nav-right">
-              <article class="footer__middle__company">
-                <h4 class="footer__middle__company-header">Support</h4>
-                <ul class="footer__middle__nav-container">
-                  <li class="footer__middle__nav">
+            <section class="footer__middle nav-right">
+              <article class="footer__middle__company__right">
+                <h4 class="footer__middle__company__right-header">Support</h4>
+                <ul class="footer__middle-nav-container">
+                  <li class="footer__middle-nav">
                     <a href="#">Help Center</a>
                   </li>
-                  <li class="footer__middle__nav">
+                  <li class="footer__middle-nav" id="contact">
                     <a href="#">Contact Us</a>
                   </li>
-                  <li class="footer__middle__nav"><a href="#">Carriers</a></li>
+                  <li class="footer__middle-nav"><a href="#">Carriers</a></li>
                 </ul>
               </article>
             </section>
 
-            <section class="footer__right_download">
-              <h4 class="footer__right_download-heading">Get Q-pick</h4>
-              <div class="footer__right_download-apple">
-                <a href="#">
-                  <i class="fab fa-apple">
-                    <p class="footer__right_download-apple-text">Apple Store</p>
+            <section class="footer__right__download">
+             <article class="footer__right__download content">
+               <h4 class="footer__right__download-header">Get Q-pick</h4>
+              <div class="footer__right__download-apple">
+                <a href="#" id="apple">
+                  <i class="fab fa-apple" id="apple-logo">
                   </i>
+                   <p class="footer__right__download-apple-text">Apple Store</p>
                 </a>
               </div>
 
-              <div class="footer__right_download-playstore">
-                <a href="#">
-                  <i class="fab fa-google-play">
-                    <p class="footer__right_download-apple-text">
+              <div class="footer__right__download-playstore" >
+                <a href="#" id="google-play">
+                  <i class="fab fa-google-play" id="google-play-logo">
+                  </i>
+                   <p class="footer__right__download-playstore-text">
                       Google Play Store
                     </p>
-                  </i>
                 </a>
               </div>
+
+             </article>
             </section>
           </article>
 

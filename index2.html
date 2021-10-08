@@ -20,23 +20,23 @@
     <title>Quick Pay</title>
   </head>
   <body>
-    <header class="header">
+    <section class="hero">
+      <header class="header">
       <img src="src/Logo.svg" alt="QuickPay Logo" class="header__logo" />
       <nav>
         <ul class="header__nav-container">
-          <li class="header__nav"><a href="#"> Home </a></li>
-          <li class="header__nav"><a href="#">Features</a></li>
-          <li class="header__nav"><a href="#">Pricing</a></li>
-          <li class="header__nav"><a href="#">Testimonials</a></li>
-          <li class="header__nav"><a href="#">Contact</a></li>
+          <li class="header__nav"><a href="#home"> Home </a></li>
+          <li class="header__nav"><a href="#features">Features</a></li>
+          <li class="header__nav"><a href="#pricing">Pricing</a></li>
+          <li class="header__nav"><a href="#testimonial">Testimonials</a></li>
+          <li class="header__nav"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
 
       <button class="btn__sign-in" id="navBtn__sign-in">Get Started</button>
     </header>
 
-    <section class="hero">
-        <div class="hero__content">
+        <div class="hero__content" id="home">
           <h1 class="hero__header">
             Effectively Manage Your Finance On The Go!
           </h1>
@@ -49,14 +49,18 @@
 
           <div class="hero__btn-container">
             <button class="btn__sign-in">Get Started</button>
-            <button class="hero__btn-vdo">Watch A Video</button>
+            <button class="hero__btn-vdo" id="hero__btn-vdo">Watch A Video</button>
           </div>
           
-          <img
-            src="src/software.svg       "
+       
+              <img
+            src="src/software.svg"
             alt="Software_illustration"
             class="hero__image"
           />
+            
+   
+        
         </div>
       </div>
     </section>
@@ -93,16 +97,18 @@
         </article>
       </section>
 
-      <section class="features">
+      <section class="features" id="features">
         <article class="features__texts">
           <h2 class="features__heading">
             Monitor Transactions live with Quick Pick
           </h2>
 
           <div class="features__texts-card">
-            <div class="features__text-icon">
+          
+              <div class="features__text-icon">
               <img src="src/transaction_icon.svg" alt="transaction icon" />
             </div>
+        
             <article class="features__text-container">
               <h3 class="features__text-heading">
                 Transfer between Q-user and our partners
@@ -210,7 +216,7 @@
       </div>
       </section>
 
-      <section class="pricing">
+      <section class="pricing" id="pricing">
         <h1 class="pricing__heading">
           Power Up Your E-banking With Our Pricing
         </h1>
@@ -395,7 +401,7 @@
       </section>
 
       <!-- testimonial -->
-      <section class="testimonial">
+      <section class="testimonial" id="testimonial">
         <h3 class="testimonial__heading">What Q-pick users says</h3>
         <p class="testimonial__sub-heading">
           Prepare to listen to ultimate lorem ipsum testimonial now!
@@ -417,8 +423,8 @@
             <div class="testimonial__review">
               <p class="testimonial__name">Vinicius Wieswafer</p>
 
-              <span class="testimonial__rating-number"> 4.5/5 </span>
               <div class="stars">
+                <span class="testimonial__rating-number"> 4.5/5 </span>
                 <span class="star on"></span>
                 <span class="star on"></span>
                 <span class="star on"></span>
@@ -440,8 +446,8 @@
             <div class="testimonial__review">
               <p class="testimonial__name">Erik Locopinoccio</p>
 
-              <span class="testimonial__rating-number"> 4.5/5 </span>
               <div class="stars">
+                <span class="testimonial__rating-number"> 4.5/5 </span>
                 <span class="star on"></span>
                 <span class="star on"></span>
                 <span class="star on"></span>
@@ -462,8 +468,8 @@
             <div class="testimonial__review">
               <p class="testimonial__name">Rui Silvastallone</p>
 
-              <span class="testimonial__rating-number"> 4.5/5 </span>
               <div class="stars">
+                <span class="testimonial__rating-number"> 4.5/5 </span>
                 <span class="star on"></span>
                 <span class="star on"></span>
                 <span class="star on"></span>
@@ -488,8 +494,8 @@
             <div class="testimonial__review">
               <p class="testimonial__name">Joseph Gonzalez</p>
 
-              <span class="testimonial__rating-number"> 5/5 </span>
               <div class="stars">
+                <span class="testimonial__rating-number"> 5/5 </span>
                 <span class="star on"></span>
                 <span class="star on"></span>
                 <span class="star on"></span>
@@ -510,8 +516,8 @@
             <div class="testimonial__review">
               <p class="testimonial__name">Pete Lavowie</p>
 
-              <span class="testimonial__rating-number"> 4/5 </span>
               <div class="stars">
+                <span class="testimonial__rating-number"> 4/5 </span>
                 <span class="star on"></span>
                 <span class="star on"></span>
                 <span class="star on"></span>
@@ -531,8 +537,8 @@
 
             <div class="testimonial__review">
               <p class="testimonial__name">Sum Ting Wong</p>
-              <span class="testimonial__rating-number"> 5/5 </span>
               <div class="stars">
+                <span class="testimonial__rating-number"> 5/5 </span>
                 <span class="star on"></span>
                 <span class="star on"></span>
                 <span class="star on"></span>
@@ -557,9 +563,7 @@
           <span class="testimonial__slide-navigator right">></span>
         </div>
       </section>
-        <div class="background__circle" aria-label="design">
-          <div class="background__circle-background"></div>
-        </div>
+       
       <!-- last page -->
 
       <section class="bottom">
@@ -640,7 +644,7 @@
                   <li class="footer__middle-nav">
                     <a href="#">Help Center</a>
                   </li>
-                  <li class="footer__middle-nav">
+                  <li class="footer__middle-nav" id="contact">
                     <a href="#">Contact Us</a>
                   </li>
                   <li class="footer__middle-nav"><a href="#">Carriers</a></li>

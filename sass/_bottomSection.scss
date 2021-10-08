@@ -1,6 +1,6 @@
 .bottom {
   height: 100vh;
-  @include sectionBorderTest;
+  // @include sectionBorderTest;
   position: relative;
   z-index: 20;
   &__newsletter {
@@ -46,16 +46,21 @@
     &-input {
       @include flexCentered;
       margin-top: 2em;
-      border: 1px solid black;
+      // border: 1px solid black;
       height: 5em;
       padding: 1em;
-      background-color: #ffffff;
+      background-color: #f7f7f7;
       border-radius: 0.8em;
       input {
         padding: 0.2em;
         width: 25em;
-        color: rgb(141, 141, 141);
+        background-color: #f7f7f7;
+        color: rgb(51, 50, 50);
         border: none;
+        font-weight: 600;
+        &:focus {
+          outline: 0;
+        }
       }
 
       &__btn {
@@ -63,13 +68,19 @@
         // position: absolute;
         // left: 45em;
         background: linear-gradient(
-          120.21deg,
+          154deg,
           #27282b 17.69%,
-          rgb(76, 78, 82) 71.8%
+          rgb(75, 75, 75) 71.8%
         );
         border-radius: 0.4em;
         border: none;
         color: $color-para;
+        &:hover {
+          background: linear-gradient(154deg, #303030 17.69%, #4c4e52 71.8%);
+        }
+        &:active {
+          background: linear-gradient(154deg, #525151 17%, #9f62a7 71.8%);
+        }
       }
     }
   }

@@ -39,15 +39,27 @@ li {
   background-color: #0b233b;
   border-radius: 8px;
   font-family: 'Reem Kufi', sans-serif;
+  &:hover {
+    background-color: #0a5cad;
+  }
 }
 
-.hero__image {
-  width: 50%;
-  display: inline-block;
-  position: absolute;
-  top: 50em;
+.hero__btn-vdo {
+  padding: 0.8em;
+  width: 11em;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: #026cd7;
+  background-color: $color-heading;
+  border-radius: 8px;
+  font-family: 'Reem Kufi', sans-serif;
+  &:hover {
+    background-color: #026cd7;
+    color: white;
+    padding: 1em;
+  }
 }
 
 .content_container {
-  background-color: #050d21;
+  background-color: $primary;
 }

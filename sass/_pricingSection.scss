@@ -1,3 +1,5 @@
+$btn-bg: #0569cd;
+
 .pricing {
   height: 100vh;
   padding: 6em;
@@ -44,6 +46,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    &:hover {
+      background-color: $btn-bg;
+      height: 83vh;
+      width: 42em;
+      .pricing__card__btn {
+        background-color: rgb(233, 233, 233);
+        color: rgb(54, 54, 54);
+      }
+      .pricing__card__icon-check_container {
+        color: rgb(1, 138, 31);
+      }
+    }
     &-heading {
       color: $color-heading;
       margin-bottom: 1em;
@@ -92,10 +107,15 @@
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-weight: 500;
       color: ivory;
-      background-color: #0569cd;
+      background-color: $btn-bg;
       border-radius: 8px;
       font-family: 'Reem Kufi', sans-serif;
       border: 0;
+
+      &:hover {
+        // padding: 1em;
+        font-size: $fontSize-Sm;
+      }
     }
   }
 }

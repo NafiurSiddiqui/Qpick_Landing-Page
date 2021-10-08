@@ -3,7 +3,7 @@
 .features {
   height: 100vh;
   padding: 6em;
-
+  position: relative;
   @include flexCentered;
   &__heading {
     color: $color-heading;
@@ -27,8 +27,9 @@
 
   &__texts-card {
     @include flexCentered;
+    align-items: start;
     // border: $borderTest;
-    margin: 1em;
+    margin: 1.5em;
   }
 
   &__text-icon {
@@ -47,11 +48,6 @@
     }
   }
 
-  &__text-container {
-    width: 80%;
-    text-align: start;
-  }
-
   .Emanager_font {
     color: #dcdcdc;
     font-family: 'Parisienne', cursive;
@@ -59,10 +55,12 @@
   }
 
   &__text-container {
-    padding: 1em;
+    padding: 0.2em 0 1em 1em;
     line-height: 1.8em;
     font-size: 1.2rem;
     letter-spacing: 0.7px;
+    width: 80%;
+    text-align: start;
   }
 
   &__text-heading {
