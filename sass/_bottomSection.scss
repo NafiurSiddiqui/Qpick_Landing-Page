@@ -1,5 +1,5 @@
 .bottom {
-  height: 100vh;
+  height: 111vh;
   // @include sectionBorderTest;
   position: relative;
   z-index: 20;
@@ -24,9 +24,6 @@
       padding: 15em;
     }
 
-    // &-content {
-    //   margin-top: 1em;
-    // }
     &-header {
       font-size: $fontSize-h1;
       font-family: 'Poppins', sans-serif;
@@ -35,12 +32,18 @@
       margin-top: -2em;
       color: $color-heading;
       //   width: 52vw;
+      @media screen and (max-width: 500px) {
+        font-size: $fontSize-mL !important;
+      }
     }
 
     &__sub-heading {
       font-size: $fontSize-h2;
       line-height: 3rem;
       color: #e9e9e7;
+      @media screen and (max-width: 500px) {
+        font-size: $fontSize-Sm;
+      }
     }
 
     &-input {
@@ -76,170 +79,212 @@
         border: none;
         color: $color-para;
         &:hover {
-          background: linear-gradient(154deg, #303030 17.69%, #4c4e52 71.8%);
+          background: linear-gradient(154deg, #303030 17.69%, #6b7588 81.8%);
+          padding: 0.8em;
         }
         &:active {
-          background: linear-gradient(154deg, #525151 17%, #9f62a7 71.8%);
+          background: linear-gradient(154deg, #3f3f3f 17%, #824d8a 90.8%);
         }
       }
     }
   }
-}
 
-.footer {
-  height: 40vh;
-  &__nav-container {
-    @include flexCentered;
-    height: 100%;
-    border-bottom: 2px solid whitesmoke;
-  }
-
-  &__left {
-    width: 50%;
-    color: $color-para;
-    text-align: start;
-    // border: $borderTest;
-    &-text {
-      font-size: $fontSize-S;
-      width: 90%;
-      margin-left: 2%;
-    }
-    &-logo {
-      width: 100px;
-    }
-
-    &-social-icon-container {
-      @include flexCentered;
-      justify-content: flex-start;
-      font-size: $fontSize-m;
-
-      i {
-        color: whitesmoke;
-        &:hover {
-          color: skyblue;
-          font-size: $fontSize-mL;
-        }
-      }
-    }
-
-    &-social-icon {
-      padding: 1em;
-    }
-  }
-
-  &__middle {
-    color: $color-para;
-    // border: $borderTest;
-    width: 16%;
-    height: 80%;
-    padding: 1em;
-    font-size: $fontSize-SS;
-    @include flexCentered;
-
-    &__company__right {
-      // border: $borderTest;
-      position: relative;
-      top: -3.4em;
-      font-size: $fontSize-SS;
-    }
-  }
-
-  a {
-    color: $color-para;
-  }
-
-  ul > li > a:hover {
-    color: skyblue;
-    font-size: 1.3rem;
-  }
-  &__middle-nav {
-    padding: 0.5em 0;
-  }
-
-  &__right__download {
-    height: 80%;
-    width: 16%;
-    // border: $borderTest;
-
-    &.content {
-      //   border: $borderTest;
+  .footer {
+    height: 40vh;
+    &__nav-container {
+      // @include flexCentered;
+      display: table;
       width: 100%;
-      //   height: 8%;
-      position: relative;
-      top: -12%;
+    }
+    &__top-container {
+      @include flexCentered;
+      justify-content: space-between;
+      height: 100%;
+      padding: 5em 0 5em 5em;
+      display: table;
     }
 
-    @include flexCentered;
-    flex-direction: column;
-    &-header {
+    &__left {
+      width: 50%;
       color: $color-para;
-      padding: 1em 0;
-      font-size: $fontSize-SS;
-    }
-
-    &-apple {
-      #apple {
-        @include flexCentered;
-        // background-color: rgb(137, 138, 139);
-        background: linear-gradient(120.21deg, #babdc2, rgb(104, 107, 114));
-        width: 13em;
-        padding: 1em;
-        border-radius: 0.4em;
-        color: $color-dark;
-        border: 2px solid rgb(190, 190, 190);
-        &:hover {
-          background: linear-gradient(120.21deg, #cacaca, rgb(97, 107, 133));
-        }
-        &:active {
-          background: linear-gradient(120.21deg, #e2b7b7, rgb(175, 82, 139));
-        }
+      text-align: start;
+      // border: $borderTest;
+      display: table-cell;
+      &-text {
+        font-size: $fontSize-S;
+        width: 90%;
+        margin-left: 2%;
       }
-      #apple-logo {
+      &-logo {
+        width: 86px;
+        margin-bottom: 1em;
+      }
+
+      &-social-icon-container {
+        @include flexCentered;
+        justify-content: flex-start;
         font-size: $fontSize-m;
-        padding-right: 4px;
+
+        i {
+          color: whitesmoke;
+          &:hover {
+            color: skyblue;
+            font-size: $fontSize-mL;
+          }
+        }
       }
 
-      &-text {
-        display: inline-block;
-        // border: $borderTest;
-        font-weight: 600;
+      &-social-icon {
+        padding: 1em;
       }
     }
 
-    &-playstore {
-      padding-top: 1.5em;
-      #google-play {
+    &__middle {
+      color: $color-para;
+      // border: $borderTest;
+      font-size: $fontSize-S;
+      // @include flexCentered;
+      // justify-content: space-around;
+      display: table;
+      width: 83%;
+      &__company {
+        display: table-cell;
+      }
+      &__company__right {
+        display: table-cell;
+      }
+    }
+
+    a {
+      color: $color-para;
+    }
+
+    ul > li > a:hover {
+      color: skyblue;
+      font-size: 1.3rem;
+    }
+    &__middle-nav {
+      padding: 0.5em 0;
+    }
+
+    &__right__download {
+      display: table-cell;
+      width: 20%;
+      &.content {
+        width: 100%;
+      }
+
+      &-header {
+        color: $color-para;
+        padding: 1em 0;
+        font-size: $fontSize-S;
+      }
+
+      &-apple {
+        #apple {
+          @include flexCentered;
+          // background-color: rgb(137, 138, 139);
+          background: linear-gradient(120.21deg, #babdc2, rgb(104, 107, 114));
+          width: 15em;
+          padding: 1em;
+          border-radius: 0.4em;
+          color: $color-dark;
+          border: 2px solid rgb(190, 190, 190);
+          &:hover {
+            background: linear-gradient(120.21deg, #cacaca, rgb(97, 107, 133));
+            border-right-color: rgba(187, 215, 226, 0.438);
+          }
+          &:active {
+            background: linear-gradient(120.21deg, #e2b7b7, rgb(175, 82, 139));
+          }
+        }
+        #apple-logo {
+          font-size: $fontSize-m;
+          padding-right: 4px;
+        }
+
+        &-text {
+          display: inline-block;
+          // border: $borderTest;
+          font-weight: 600;
+        }
+      }
+
+      &-playstore {
+        padding-top: 1.5em;
+        #google-play {
+          @include flexCentered;
+          background: linear-gradient(120.21deg, #babdc2, rgb(104, 107, 114));
+          width: 15em;
+          padding: 1em;
+          border-radius: 0.4em;
+          color: $color-dark;
+          border: 2px solid rgb(190, 190, 190);
+
+          &:hover {
+            background: linear-gradient(120.21deg, #cacaca, rgb(97, 107, 133));
+            border-right-color: rgba(187, 215, 226, 0.438);
+          }
+          &:active {
+            background: linear-gradient(120.21deg, #e2b7b7, rgb(175, 82, 139));
+          }
+        }
+
+        #google-play-logo {
+          font-size: 2rem;
+          padding-right: 4px;
+        }
+      }
+    }
+
+    &__copyright {
+      color: $color-para;
+      height: 10vh;
+      font-size: $fontSize-S;
+      @include flexCentered;
+      border-top: 2px solid whitesmoke;
+      padding: 5em;
+    }
+
+    @media screen and (max-width: 790px) {
+      &__nav-container {
         @include flexCentered;
-        background: linear-gradient(120.21deg, #babdc2, rgb(104, 107, 114));
-        width: 13em;
+        flex-direction: column;
+      }
+
+      &__right__download__btn-container {
+        @include flexCentered;
+      }
+      &__right__download {
+        @include flexCentered;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 2em;
+      }
+      &__right__download-playstore {
+        padding: 0;
+        margin-left: 1em;
+      }
+    }
+
+    @media screen and (max-width: 580px) {
+      &__left-logo {
+        width: 70px;
+      }
+      &__top-container {
+        padding: 2em;
+      }
+
+      &__left-text {
         padding: 1em;
-        border-radius: 0.4em;
-        color: $color-dark;
-        border: 2px solid rgb(190, 190, 190);
-
-        &:hover {
-          background: linear-gradient(120.21deg, #cacaca, rgb(97, 107, 133));
-        }
-        &:active {
-          background: linear-gradient(120.21deg, #e2b7b7, rgb(175, 82, 139));
-        }
       }
-
-      #google-play-logo {
-        font-size: $fontSize-Sm;
-        padding-right: 4px;
-      }
-
-      &-text {
-        font-weight: 800;
+      &__middle {
+        width: 100%;
       }
     }
   }
 
-  &__copyright {
-    color: $color-para;
-    height: 10vh;
-    font-size: $fontSize-SS;
-    @include flexCentered;
+  @media screen and (max-width: 790px) {
+    height: 124vh;
   }
 }

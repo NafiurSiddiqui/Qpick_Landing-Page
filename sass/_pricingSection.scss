@@ -3,6 +3,8 @@ $btn-bg: #0569cd;
 .pricing {
   height: 100vh;
   padding: 6em;
+  margin-top: 6em;
+  // @include sectionBorderTest;
   &__header {
     color: $color-heading;
     font-size: $fontSize-h1-m;
@@ -40,7 +42,7 @@ $btn-bg: #0569cd;
     border-radius: 0.6em;
     padding: 2em;
     width: 40em;
-    height: 80vh;
+    height: 70vh;
     margin: 3em 2em;
     display: flex;
     flex-direction: column;
@@ -49,7 +51,8 @@ $btn-bg: #0569cd;
 
     &:hover {
       background-color: $btn-bg;
-      height: 83vh;
+      height: 74vh;
+
       width: 42em;
       .pricing__card__btn {
         background-color: rgb(233, 233, 233);
@@ -116,6 +119,15 @@ $btn-bg: #0569cd;
         // padding: 1em;
         font-size: $fontSize-Sm;
       }
+    }
+  }
+
+  @media screen and (max-width: 820px) {
+    margin-top: 15em;
+  }
+  @media screen and (max-width: 680px) {
+    &__cards {
+      flex-direction: column;
     }
   }
 }

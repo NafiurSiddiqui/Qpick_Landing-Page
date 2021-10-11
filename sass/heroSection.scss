@@ -71,4 +71,28 @@
       top: 80%;
     }
   }
+
+  @media screen and (max-width: 360px) {
+    h1 {
+      font-size: $fontSize-Sm;
+    }
+    &__sub-header {
+      font-size: $fontSize-S;
+    }
+    &__btn-container {
+      margin-bottom: 21em;
+    }
+    .btn__sign-in {
+      padding: 0.6em;
+      width: 9em;
+      font-size: 1.1em;
+    }
+
+    .hero__btn-vdo {
+      margin-left: 2em;
+      font-size: 1.1em;
+      width: 10em;
+      padding: 0.6em;
+    }
+  }
 }

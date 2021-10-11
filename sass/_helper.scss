@@ -13,6 +13,9 @@
   border-bottom: 2px solid khaki;
 }
 
+@mixin transition-ease {
+  transition: all 0.5s ease-in-out;
+}
 //background color
 $primary: #050b18;
 

@@ -17,26 +17,29 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="sass/main.scss" />
-    <title>Quick Pay</title>
+    <script defer src="./js/navbar.js"></script>
+    <title>Quick Pick</title>
   </head>
   <body>
     <section class="hero">
       <header class="header">
       <img src="src/Logo.svg" alt="QuickPay Logo" class="header__logo" />
-      <nav>
-        <ul class="header__nav-container">
-          <li class="header__nav"><a href="#home"> Home </a></li>
-          <li class="header__nav"><a href="#features">Features</a></li>
-          <li class="header__nav"><a href="#pricing">Pricing</a></li>
-          <li class="header__nav"><a href="#testimonial">Testimonials</a></li>
-          <li class="header__nav"><a href="#contact">Contact</a></li>
+      <nav class="header__menu-container">
+        <ul class="header__menu__li-container ">
+          <li class="header__menu"><a href="#home"> Home </a></li>
+          <li class="header__menu"><a href="#features">Features</a></li>
+          <li class="header__menu"><a href="#pricing">Pricing</a></li>
+          <li class="header__menu"><a href="#testimonial">Testimonials</a></li>
+          <li class="header__menu"><a href="#contact">Contact</a></li>
         </ul>
-      </nav>
-    <div class="header__navbars-container">
-      <div class="header__navbars_top"></div>
-      <div class="header__navbars_middle"></div>
-      <div class="header__navbars_bottom"></div>
+
+         <div class="header__menubars-container ">
+      <div class="header__menubars_top"></div>
+      <div class="header__menubars_middle"></div>
+      <div class="header__menubars_bottom"></div>
     </div>
+      </nav>
+   
     
       <button class="btn__sign-in" id="navBtn__sign-in">Get Started</button>
     </header>
@@ -83,7 +86,8 @@
         >
          <div class="background__circle-left-background"></div>
       </div>
-
+<div class="big__corp__content">
+  
         <h1 class="big__corp-header">
           Trusted By Leading Industrial Giants
         </h1>
@@ -102,15 +106,16 @@
           <img src="src/Heineken.svg" alt="heineken logo" class="logo-container logos" id="heineken"/>
           <img src="src/Nestle.svg" alt="nestle logo" class="logo-container logos" id="nestle"/>
         </article>
+</div>
       </section>
 
       <section class="features" id="features">
-        <article class="features__texts">
+        <article class="features__text">
           <h2 class="features__heading">
             Monitor Transactions live with Quick Pick
           </h2>
 
-          <div class="features__texts-card">
+          <div class="features__text-card">
           
               <div class="features__text-icon">
               <img src="src/transaction_icon.svg" alt="transaction icon" />
@@ -131,7 +136,7 @@
             </article>
           </div>
 
-          <div class="features__texts-card">
+          <div class="features__text-card">
             <div class="features__text-icon">
               <span class="Emanager_font">E</span>
             </div>
@@ -148,7 +153,7 @@
             </article>
           </div>
 
-          <div class="features__texts-card">
+          <div class="features__text-card">
             <div class="features__text-icon">
               <img src="src/loan_icon.svg" alt="getting loan icon" id="loan_icon"/>
             </div>
@@ -163,7 +168,7 @@
             </article>
           </div>
 
-          <div class="features__texts-card">
+          <div class="features__text-card">
             <div class="features__text-icon">
               <img src="src/splitBill_icon.svg" alt="split Bill icon" />
             </div>
@@ -179,7 +184,7 @@
           </div>
 
 
-          <div class="features__texts-card">
+          <div class="features__text-card">
             <div class="features__text-icon">
            <img src="src/more.svg" alt="more" id="more">
             </div>
@@ -193,11 +198,13 @@
                     Watch
                  </span>  a short video on more features.
               </p>
+              <br>
+                <button class="hero__btn-vdo">Watch A video</button>
             </article>
           </div>
 
 
-           <button class="hero__btn-vdo">Watch A video</button>
+         
         </article>
 
         <article class="features__decoration">
@@ -215,12 +222,7 @@
           <div class="features__decoration-gradient" ></div>
         </article>
 
-        <div
-          class="features__background__circle"
-          aria-label="design"
-        >
-         <div class="features__background__circle-background"></div>
-      </div>
+    
       </section>
 
       <section class="pricing" id="pricing">
@@ -409,7 +411,8 @@
 
       <!-- testimonial -->
       <section class="testimonial" id="testimonial">
-        <h3 class="testimonial__heading">What Q-pick users says</h3>
+        <article class="testimonial__content">
+          <h3 class="testimonial__heading">What Q-pick users says</h3>
         <p class="testimonial__sub-heading">
           Prepare to listen to ultimate lorem ipsum testimonial now!
         </p>
@@ -569,6 +572,17 @@
           ></div>
           <span class="testimonial__slide-navigator right">></span>
         </div>
+
+        <div
+          class="testimonial__background__circle"
+          aria-label="design"
+        >
+         <div class="testimonial__background__circle-background"></div>
+      </div>
+        </article>
+
+
+      
       </section>
        
       <!-- last page -->
@@ -602,7 +616,8 @@
 
         <footer class="footer">
           <article class="footer__nav-container">
-            <section class="footer__left">
+           <div class="footer__top-container">
+              <section class="footer__left">
               <img src="src/Logo.svg" alt="Quick pick logo" class="footer__left-logo"/>
               <p class="footer__left-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.Libero
@@ -642,9 +657,8 @@
                   <li class="footer__middle-nav"><a href="#">Security</a></li>
                 </ul>
               </article>
-            </section>
 
-            <section class="footer__middle nav-right">
+               <section class="footer__middle nav-right">
               <article class="footer__middle__company__right">
                 <h4 class="footer__middle__company__right-header">Support</h4>
                 <ul class="footer__middle-nav-container">
@@ -655,14 +669,20 @@
                     <a href="#">Contact Us</a>
                   </li>
                   <li class="footer__middle-nav"><a href="#">Carriers</a></li>
+                 
                 </ul>
               </article>
             </section>
+            </section>
+
+           </div>
+           
 
             <section class="footer__right__download">
              <article class="footer__right__download content">
                <h4 class="footer__right__download-header">Get Q-pick</h4>
-              <div class="footer__right__download-apple">
+            <div class="footer__right__download__btn-container">
+                <div class="footer__right__download-apple">
                 <a href="#" id="apple">
                   <i class="fab fa-apple" id="apple-logo">
                   </i>
@@ -679,6 +699,7 @@
                     </p>
                 </a>
               </div>
+            </div>
 
              </article>
             </section>

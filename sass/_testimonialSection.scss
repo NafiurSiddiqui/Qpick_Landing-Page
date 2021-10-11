@@ -4,6 +4,11 @@
   padding: 11em 6em 5em 6em;
   margin-top: 2em;
   // @include sectionBorderTest;
+
+  &__content {
+    position: static;
+    z-index: 20;
+  }
   &__heading {
     font-size: $fontSize-Lm;
     margin-bottom: 1em;
@@ -19,13 +24,22 @@
     position: relative;
     overflow-x: hidden;
     width: 90vw;
+
+    @media screen and (max-width: 1530px) {
+      height: 60vh;
+    }
+    @media screen and (max-width: 680px) {
+      height: 78vh;
+    }
   }
 
   &__card {
     border: 1px solid rgb(196, 196, 196);
     padding: 1em;
     text-align: center;
-    width: 44em;
+    // width: 44em;
+    width: 100%;
+    max-width: 44em;
     height: 28em;
     border-radius: 1.4em;
     margin: 1em;
@@ -34,6 +48,10 @@
       rgba(29, 29, 29, 0.8),
       rgba(226, 225, 225, 0.38)
     );
+    @media screen and (max-width: 480px) {
+      height: auto;
+      margin: 1.8em 0;
+    }
   }
 
   &__image {
@@ -63,6 +81,10 @@
     }
     &.F {
       background-image: url('../src/Testimonial/TalenDeStCroix.jpg');
+    }
+
+    @media screen and (max-width: 480px) {
+      left: 0;
     }
   }
 
@@ -120,9 +142,8 @@
   }
 
   &__slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCentered;
+    flex-wrap: wrap;
     position: absolute;
     transition: transform 500ms ease-in-out 200ms;
     &.A {
@@ -172,28 +193,43 @@
       }
     }
   }
-}
 
-.background__circle {
-  background: linear-gradient(
-    318deg,
-    rgba(113, 2, 133, 0.61),
-    rgba(13, 78, 168, 0.81),
-    rgba(0, 166, 175, 0.87)
-  );
-  width: 28em;
-  height: 28em;
-  border-radius: 50%;
-  @include flexCentered;
-  position: absolute;
-  right: -10em;
-  bottom: -340em;
-  z-index: 10;
-  &-background {
-    position: relative;
-    background: linear-gradient(rgb(5, 13, 33), rgb(5, 13, 33), rgb(5, 13, 33));
-    width: 98%;
-    height: 98%;
+  &__background__circle {
+    background: linear-gradient(
+      318deg,
+      rgba(113, 2, 133, 0.61),
+      rgba(13, 78, 168, 0.81),
+      rgba(0, 166, 175, 0.87)
+    );
+    width: 28em;
+    height: 28em;
     border-radius: 50%;
+    @include flexCentered;
+    position: absolute;
+    // position: relative;
+    right: -12em;
+    bottom: -339em;
+    z-index: 10;
+    &-background {
+      position: relative;
+      background: linear-gradient(
+        rgb(5, 13, 33),
+        rgb(5, 13, 33),
+        rgb(5, 13, 33)
+      );
+      width: 98%;
+      height: 98%;
+      border-radius: 50%;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    // height: 200vh;
+    margin-top: 153em;
+    padding: 0 0 5em 1em;
+
+    &__background__circle {
+      display: none;
+    }
   }
 }
