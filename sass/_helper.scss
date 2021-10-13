@@ -1,5 +1,8 @@
 @mixin flexCentered {
   display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
   justify-content: center;
   align-items: center;
 }
@@ -14,7 +17,10 @@
 }
 
 @mixin transition-ease {
-  transition: all 0.5s ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+@mixin transition-fast {
+  transition: all 200ms ease-in-out;
 }
 //background color
 $primary: #050b18;

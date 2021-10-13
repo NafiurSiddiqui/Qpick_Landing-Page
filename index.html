@@ -18,6 +18,7 @@
     />
     <link rel="stylesheet" href="sass/main.scss" />
     <script defer src="./js/navbar.js"></script>
+    <script defer src="./js/testimonial.js"></script>
     <title>Quick Pick</title>
   </head>
   <body>
@@ -419,7 +420,7 @@
 
         <article class="testimonial__cards">
 
-          <div class="testimonial__slide A">
+          <div class="testimonial__slide-A active">
 
              <div class="testimonial__card">
             <div class="testimonial__image A"></div>
@@ -492,7 +493,7 @@
 
           </div>
          
-        <div class="testimonial__slide B">
+        <div class="testimonial__slide-B not-active">
               <div class="testimonial__card">
             <div class="testimonial__image D"></div>
             <p class="testimonial__text">
@@ -562,15 +563,15 @@
         </article>
 
         <div class="testimonial__slide-navigator-container">
-          <span class="testimonial__slide-navigator left"><</span>
+          <span class="testimonial__slide-navigator__left"><</span>
 
           <div
-            class="testimonial__slide-dot active"
+            class="testimonial__slide-dot__left  active "
           ></div>
           <div
-            class="testimonial__slide-dot"
+            class="testimonial__slide-dot__right"
           ></div>
-          <span class="testimonial__slide-navigator right">></span>
+          <span class="testimonial__slide-navigator__right">></span>
         </div>
 
         <div

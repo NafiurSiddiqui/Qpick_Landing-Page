@@ -3,10 +3,16 @@ const menuContainer = document.querySelector('.header__menu__li-container');
 const menubarTop = document.querySelector('.header__menubars_top');
 const menubarMiddle= document.querySelector('.header__menubars_middle');
 const menubarBottom = document.querySelector('.header__menubars_bottom');
-const header = document.getElementsByTagName("header");
-console.log(header);
+const header = document.querySelector('.header');
+// console.log(header);
 
-
-// menubarContainer.addEventListener('click',()=>{
-//     header.className.toggle('open')
-// })
+let openMenu = false;
+menubarContainer.addEventListener('click',()=>{
+   if(!openMenu){
+     header.classList.add('open')
+     openMenu = true;
+   }else{
+       header.classList.remove('open');
+       openMenu = false;
+   }
+})

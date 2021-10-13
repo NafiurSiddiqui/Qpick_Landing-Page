@@ -1,8 +1,9 @@
 .bottom {
-  height: 111vh;
+  height: 120vh;
   // @include sectionBorderTest;
   position: relative;
   z-index: 20;
+
   &__newsletter {
     @include flexCentered;
     background: linear-gradient(
