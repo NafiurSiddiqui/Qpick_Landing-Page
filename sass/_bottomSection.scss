@@ -1,5 +1,5 @@
 .bottom {
-  height: 120vh;
+  height: 130vh;
   // @include sectionBorderTest;
   position: relative;
   z-index: 20;
@@ -13,16 +13,17 @@
       rgba(0, 166, 176, 0.94)
     );
     padding: 6em;
-
+    width: 100%;
     &-content {
       @include flexCentered;
       flex-direction: column;
+      width: 100%;
     }
     &.container {
       color: $color-para;
       width: 100%;
       height: 50vh;
-      padding: 15em;
+      padding: 1em;
     }
 
     &-header {
@@ -55,6 +56,7 @@
       padding: 1em;
       background-color: #f7f7f7;
       border-radius: 0.8em;
+      // width: 100%;
       input {
         padding: 0.2em;
         width: 25em;
@@ -87,11 +89,15 @@
           background: linear-gradient(154deg, #3f3f3f 17%, #824d8a 90.8%);
         }
       }
+
+      @media screen and (max-width: 500px) {
+        width: 100%;
+      }
     }
   }
 
   .footer {
-    height: 40vh;
+    // height: 0vh;
     &__nav-container {
       // @include flexCentered;
       display: table;
@@ -101,7 +107,7 @@
       @include flexCentered;
       justify-content: space-between;
       height: 100%;
-      padding: 5em 0 5em 5em;
+      padding: 7em 0 7em 5em;
       display: table;
     }
 
@@ -128,9 +134,11 @@
 
         i {
           color: whitesmoke;
+          @include transition-fast;
           &:hover {
             color: skyblue;
-            font-size: $fontSize-mL;
+            // font-size: $fontSize-mL;
+            transform: scale(2);
           }
         }
       }
@@ -281,11 +289,31 @@
       }
       &__middle {
         width: 100%;
+        padding-top: 1em;
+      }
+    }
+
+    @media screen and (max-width: 470px) {
+      &__top-container {
+        @include flexCentered;
+        flex-direction: column-reverse;
+        // background-color: blueviolet;
+      }
+
+      &__left {
+        width: 100%;
+        text-align: center;
+        &-social-icon-container {
+          justify-content: center;
+        }
       }
     }
   }
 
   @media screen and (max-width: 790px) {
-    height: 124vh;
+    // height: 124vh;
+  }
+  @media screen and (max-width: 470px) {
+    height: 137vh;
   }
 }

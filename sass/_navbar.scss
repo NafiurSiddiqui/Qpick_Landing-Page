@@ -18,6 +18,7 @@
   ul > li > a {
     color: rgb(233, 232, 232);
     font-weight: 500;
+    @include transition-ease;
     &:hover {
       color: rgb(252, 127, 185);
       font-size: $fontSize-Sm;
@@ -29,7 +30,6 @@
     width: 60%;
     height: 5em;
     @include flexCentered;
-    @include transition-ease;
     @media screen and (max-width: 783px) {
       transform: translateX(-25%);
     }

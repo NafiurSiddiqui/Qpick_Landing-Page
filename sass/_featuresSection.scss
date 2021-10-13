@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 .features {
-  height: 100vh;
+  height: 110vh;
   // background-color: blue;
   padding: 4em;
   position: relative;
@@ -88,16 +88,17 @@
       position: absolute;
       z-index: 30;
 
-      @media screen and (max-width: 790px) {
-        grid-template-columns: 1fr;
-      }
+      // @media screen and (max-width: 790px) {
+      //   grid-template-columns: 1fr;
+      // }
     }
     &-image {
-      width: 23em;
+      // width: 23em;
+      width: 70%;
       margin: 1em 0;
 
       @media screen and (max-width: 960px) {
-        width: 18em;
+        width: 100%;
       }
     }
     // #splitCard {
@@ -125,6 +126,7 @@
     padding: 2em;
     &__text {
       width: 100%;
+      margin-bottom: 8em;
     }
 
     &__decoration {
@@ -134,7 +136,7 @@
       &__image-container {
         // grid-template-columns: 1fr 1fr;
         grid-template-columns: minmax(120px, 1fr) minmax(120px, 1fr);
-        width: 82%;
+        width: 80%;
       }
 
       &-gradient {
@@ -144,7 +146,7 @@
     }
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 380px) {
     height: max-content;
     padding: 0em;
     // font-size: $fontSize-Sm;

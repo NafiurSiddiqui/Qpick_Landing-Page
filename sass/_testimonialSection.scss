@@ -149,17 +149,21 @@
     position: absolute;
     transition: transform 500ms ease-in-out 200ms;
     &-A {
-      transform: translateX(-140em);
-      //   margin-right: 1em;
-      &.active {
+      transform: translateX(0);
+
+      &.activeA {
         transform: translateX(0);
+      }
+
+      &.removeA {
+        transform: translateX(-100vw);
       }
     }
 
     &-B {
-      transform: translateX(0);
-      &.not-active {
-        transform: translateX(140em);
+      transform: translateX(100vw);
+      &.activeB {
+        transform: translateX(0);
       }
     }
 
@@ -237,11 +241,16 @@
 
   @media screen and (max-width: 680px) {
     // height: 200vh;
-    margin-top: 153em;
+    // margin-top: 127em;
+    margin-top: 150em;
     padding: 0 0 5em 1em;
 
     &__background__circle {
       display: none;
+    }
+
+    .testimonial__slide-navigator-container {
+      margin-top: 3em;
     }
   }
 }

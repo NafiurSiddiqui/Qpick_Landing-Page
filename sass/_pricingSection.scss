@@ -130,5 +130,16 @@ $btn-bg: #0569cd;
     &__cards {
       flex-direction: column;
     }
+    div#card-special {
+      .pricing__card-heading {
+        margin-bottom: 0;
+      }
+      .pricing__card.container {
+        padding: 0;
+      }
+      // .pricing__card {
+      //   font-size: 1.2rem;
+      // }
+    }
   }
 }

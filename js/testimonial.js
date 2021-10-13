@@ -9,7 +9,20 @@ const dotRight = document.querySelector('.testimonial__slide-dot__right');
 
 
 // ----what a mess 😂
-// navLeft.addEventListener('click',()=>{
-//     slideB.classList.add('active')
-//     slideA.classList.remove('active');
-// })
+
+navLeft.addEventListener('click',()=>{
+    slideB.classList.remove('activeB');
+    dotRight.classList.remove('active');
+    slideA.classList.remove('removeA');
+    slideA.classList.add('activeA');
+    dotLeft.classList.add('active');
+})
+navRight.addEventListener('click',()=>{
+    slideA.classList.remove('activeA')
+    dotLeft.classList.remove('active');
+    slideA.classList.add('removeA');
+    slideB.classList.add('activeB');
+    dotRight.classList.add('active')
+
+    
+})
