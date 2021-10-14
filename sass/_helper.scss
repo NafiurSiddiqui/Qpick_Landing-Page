@@ -1,9 +1,47 @@
 @mixin flexCentered {
   display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
   justify-content: center;
   align-items: center;
 }
 
 @mixin borderTest {
-  border: 1px solid black;
+  border: 1px solid rgb(250, 151, 151);
 }
+
+@mixin sectionBorderTest {
+  border-top: 2px solid khaki;
+  border-bottom: 2px solid khaki;
+}
+
+@mixin transition-ease {
+  transition: all 400ms ease-in-out;
+}
+@mixin transition-fast {
+  transition: all 200ms ease-in-out;
+}
+//background color
+$primary: #050b18;
+
+$color-heading: #fefefb;
+$color-para: #dfdfdf;
+$color-dark: rgb(22, 22, 22);
+$borderTest: 1px solid khaki;
+
+// font size
+
+$fontSize-h1: 4rem;
+$fontSize-h2: 2rem;
+$fontSize-h1-m: 3rem;
+$fontSize-mL: 2.5rem;
+$fontSize-Lm: 2.4rem;
+$fontSize-m: 2rem;
+$fontSize-Sm: 1.6rem;
+$fontSize-S: 1.4rem;
+$fontSize-SS: 1.2rem;
+
+// star color of the reviews
+
+$color-star: rgb(231, 198, 8);
