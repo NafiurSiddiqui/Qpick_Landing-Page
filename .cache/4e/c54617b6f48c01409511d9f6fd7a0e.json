@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-{"id":"src/transaction_icon.svg","dependencies":[{"name":"G:\\Project HTML Email Dev\\1.4.QuickPick Landing Page\\package.json","includedInParent":true,"mtime":1634234675269}],"generated":{"js":"module.exports = \"/f5cd0a2659f19f1c9d0b9abb13beec3e.svg\";"},"sourceMaps":null,"error":null,"hash":"2610be3e0c2eaf79dc3e6061ce82dfa5","cacheData":{"env":{}}}
-=======
-{"id":"src/transaction_icon.svg","dependencies":[{"name":"G:\\Project HTML Email Dev\\1.4.QuickPick Landing Page\\package.json","includedInParent":true,"mtime":1634082441913}],"generated":{"js":"module.exports = \"/f5cd0a2659f19f1c9d0b9abb13beec3e.svg\";"},"sourceMaps":null,"error":null,"hash":"ed8e5395fc3f802974001e46bfcdfbd6","cacheData":{"env":{}}}
->>>>>>> interactive
