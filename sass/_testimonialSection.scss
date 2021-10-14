@@ -52,6 +52,7 @@
       height: auto;
       margin: 1.8em 0;
     }
+    @include transition-ease;
   }
 
   &__image {
@@ -63,7 +64,9 @@
     display: inline-block;
     position: relative;
     top: -3em;
-    left: -14em;
+    // left: -14em;
+    left: -31%;
+
     &.A {
       background-image: url('../src/Testimonial/AllefVinicius.jpg');
     }
@@ -83,9 +86,9 @@
       background-image: url('../src/Testimonial/TalenDeStCroix.jpg');
     }
 
-    @media screen and (max-width: 480px) {
-      left: 0;
-    }
+    // @media screen and (max-width: 480px) {
+    //   left: 0;
+    // }
   }
 
   &__text {
@@ -144,7 +147,6 @@
   &__slide-A,
   &__slide-B {
     @include flexCentered;
-
     flex-wrap: wrap;
     position: absolute;
     transition: transform 500ms ease-in-out 200ms;
@@ -166,12 +168,12 @@
         transform: translateX(0);
       }
     }
-
+    &-navigator-container {
+      padding: 4em;
+      // margin-top: 2em;
+    }
     &-navigator__left,
     &-navigator__right {
-      &-container {
-        padding: 4em;
-      }
       font-size: $fontSize-mL;
       font-weight: bold;
       background-color: whitesmoke;
@@ -224,7 +226,8 @@
     position: absolute;
     // position: relative;
     right: -12em;
-    bottom: -339em;
+    // bottom: -339em;
+    bottom: -417%;
     z-index: 10;
     &-background {
       position: relative;
@@ -248,9 +251,13 @@
     &__background__circle {
       display: none;
     }
+  }
 
-    .testimonial__slide-navigator-container {
-      margin-top: 3em;
+  @media screen and (max-width: 480px) {
+    &__slide-navigator-container {
+      padding: 1.2em;
+      margin-bottom: 1em;
+      // margin-top: 2em;
     }
   }
 }
