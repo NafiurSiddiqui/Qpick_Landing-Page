@@ -1,4 +1,4 @@
-15799
+15771
 104G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\css-tree\lib\syntax\node\WhiteSpace.js121436361000000000 0
 68G:\Project HTML Email Dev\1.4.QuickPick Landing Page\sass\_base.scss132787083715532524 0
 71G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\uncss132807906905328253 1
@@ -51,7 +51,7 @@
 90G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\abortcontroller-polyfill132807906851230224 1
 74G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\asn1\lib132807906700934945 1
 80G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lodash\over.js121436361000000000 0
-57G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist132807914596132069 1
+57G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist132807911841464567 1
 96G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2020\RegExpExec.js121436361000000000 0
 89G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\optimizer-image132807906881805541 1
 73G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\connect132807906923978858 1
@@ -197,7 +197,7 @@
 87G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lodash\_baseSample.js121436361000000000 0
 88G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\colord\plugins\a11y.js121436361000000000 0
 69G:\Project HTML Email Dev\1.4.QuickPick Landing Page\src\AppStore.svg132778390052570000 0
-56G:\Project HTML Email Dev\1.4.QuickPick Landing Page\src132807913375499180 1
+56G:\Project HTML Email Dev\1.4.QuickPick Landing Page\src132787083716006365 1
 109G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@nodelib\fs.scandir\out\providers\common.js121436361000000000 0
 101G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\features\string\fontsize.js121436361000000000 0
 105G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\stable\string\virtual\substr.js121436361000000000 0
@@ -337,7 +337,7 @@
 96G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\stable\set-interval.js121436361000000000 0
 79G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lodash\lte.js121436361000000000 0
 87G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\postcss-normalize-url132807906999229285 1
-68G:\Project HTML Email Dev\1.4.QuickPick Landing Page\src\Testimonial132807913524025315 1
+68G:\Project HTML Email Dev\1.4.QuickPick Landing Page\src\Testimonial132787114746827085 1
 74G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@nodelib132807906814114955 1
 84G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lodash\fp\maxBy.js121436361000000000 0
 105G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@babel\helper-module-transforms\LICENSE121012626000000000 0
@@ -348,7 +348,7 @@
 95G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\ansi-html-community\README.md121436361000000000 0
 104G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\uri-js\dist\esnext\schemes\http.js.map121436361000000000 0
 84G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lodash\_getView.js121436361000000000 0
-86G:\Project HTML Email Dev\1.4.QuickPick Landing Page\src\Testimonial\AllefVinicius.jpg132807697220000000 0
+86G:\Project HTML Email Dev\1.4.QuickPick Landing Page\src\Testimonial\AllefVinicius.jpg132786897800000000 0
 115G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\cssstyle\lib\properties\webkitBorderAfterColor.js121436361000000000 0
 95G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\object-inspect\test\bigint.js121436361000000000 0
 100G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\is-negative-zero\.github\workflows132807906732707718 1
@@ -421,7 +421,7 @@
 93G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\css-tree\lib\utils\clone.js121436361000000000 0
 76G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\indexes-of132807907064555949 1
 99G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\caniuse-lite\data\features\es6.js121436361000000000 0
-82G:\Project HTML Email Dev\1.4.QuickPick Landing Page\sass\_testimonialSection.scss132807914647228437 0
+82G:\Project HTML Email Dev\1.4.QuickPick Landing Page\sass\_testimonialSection.scss132787157817132454 0
 118G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\jsdom\lib\jsdom\living\nodes\HTMLBaseElement-impl.js121436361000000000 0
 71G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\chalk132807906964446217 1
 97G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\bl\node_modules\readable-stream132807906927925237 1
@@ -1140,7 +1140,6 @@
 90G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\v8-compile-cache\LICENSE121436361000000000 0
 119G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\postcss-modules-values\node_modules\has-flag\index.js131593941750000000 0
 79G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\vm-browserify132807906908272403 1
-76G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\index.aa9ea4b8.css132807914596102093 0
 123G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\postcss-modules-scope\node_modules\postcss\lib\comment.js121436361000000000 0
 89G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\querystring\.travis.yml130069927140000000 0
 105G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2021\SameValueNonNumeric.js121436361000000000 0
@@ -1498,7 +1497,6 @@
 113G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\fast-glob\out\providers\transformers\entry.d.ts121436361000000000 0
 74G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\get-port132807906882457459 1
 113G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\fast-url-parser\node_modules\punycode\README.md130692890970000000 0
-85G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\splitBill_icon.1c71026e.svg132807913829253232 0
 107G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\modules\esnext.iterator.reduce.js121436361000000000 0
 78G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lodash.clone132807907039057805 1
 70G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\glob132807906905328253 1
@@ -2585,7 +2583,6 @@
 103G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\stable\instance\trim-start.js121436361000000000 0
 84G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\yaml\dist\types.js121436361000000000 0
 83G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\yaml\dist\util.js121436361000000000 0
-92G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\Emanager_feature_card.1776d8b5.svg132807913829253232 0
 98G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\minimalistic-assert\package.json132807907027783908 0
 104G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\terser\lib\utils\first_in_statement.js121436361000000000 0
 96G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\yaml\dist\warnings-1000a372.js121436361000000000 0
@@ -3955,7 +3952,6 @@
 87G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\is-typed-array\.nycrc121436361000000000 0
 94G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\sshpk\lib\formats\rfc4253.js131837759770000000 0
 140G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\split2\node_modules\readable-stream\lib\internal\streams\async_iterator.js121436361000000000 0
-83G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\Expense_card.d4d51f47.svg132807913829253232 0
 76G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\fs132807906881825541 1
 95G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\builtin-status-codes\build.js130922725760000000 0
 99G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\tough-cookie\lib\pubsuffix-psl.js121436361000000000 0
@@ -4006,7 +4002,6 @@
 109G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\workers\lib\threads\ThreadsChild.js121436361000000000 0
 93G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\timers-browserify\README.md121436361000000000 0
 83G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\fast-glob\LICENSE121436361000000000 0
-77G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\Nestle.822ba2b0.svg132807913829253232 0
 100G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@nodelib\fs.stat\out\settings.d.ts121436361000000000 0
 85G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\terser\CHANGELOG.md121436361000000000 0
 94G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\svgo\plugins\_collections.js121436361000000000 0
@@ -4064,7 +4059,6 @@
 82G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lodash\_isKey.js121436361000000000 0
 110G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\caniuse-lite\data\features\variable-fonts.js121436361000000000 0
 110G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\serve-handler\node_modules\mime-db\README.md131564451730000000 0
-75G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\Logo.10418436.svg132807913829248022 0
 104G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\es\object\define-properties.js121436361000000000 0
 129G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\postcss-modules-extract-imports\node_modules\color-name\LICENSE130953959930000000 0
 109G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\jake\node_modules\supports-color\browser.js131663821590000000 0
@@ -6943,7 +6937,6 @@
 102G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\features\string\fontcolor.js121436361000000000 0
 101G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\highlight.js\lib\languages\smali.js121436361000000000 0
 88G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\optionator\lib\help.js132175490390000000 0
-75G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\more.3e8c8cd2.svg132807913829253232 0
 81G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\open\index.d.ts121436361000000000 0
 122G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\icss-utils\node_modules\picocolors\picocolors.browser.js121436361000000000 0
 81G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\onetime\license121436361000000000 0
@@ -7437,7 +7430,6 @@
 101G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2020\Number\multiply.js121436361000000000 0
 84G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\mdn-data\README.md121436361000000000 0
 117G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\is-negative-zero\.github\workflows\node-pretest.yml121436361000000000 0
-80G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\index.aa9ea4b8.css.map132807914596132069 0
 88G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\mdn-data\l10n\css.json121436361000000000 0
 85G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\color-name\index.js121436361000000000 0
 92G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\mdn-data\css\at-rules.json121436361000000000 0
@@ -7988,7 +7980,6 @@
 84G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\colord\colord.d.ts121436361000000000 0
 93G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2018\WeekDay.js121436361000000000 0
 81G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\ignore\index.js121436361000000000 0
-77G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\Paypal.d9692a94.svg132807913829253232 0
 86G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lodash\_baseWhile.js121436361000000000 0
 93G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lodash\_baseWrapperValue.js121436361000000000 0
 84G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lodash\_baseXor.js121436361000000000 0
@@ -8043,7 +8034,6 @@
 91G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lodash\_escapeHtmlChar.js121436361000000000 0
 96G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\es\typed-array\join.js121436361000000000 0
 85G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lodash\_flatRest.js121436361000000000 0
-76G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\Chart.31cb9cef.svg132807913829253232 0
 87G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lodash\_freeGlobal.js121436361000000000 0
 89G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lodash\_getAllKeysIn.js121436361000000000 0
 84G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lodash\_getData.js121436361000000000 0
@@ -8784,7 +8774,6 @@
 122G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lmdb-store\dependencies\lmdb\libraries\liblmdb\intro.doc121436361000000000 0
 104G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\stable\string\virtual\blink.js121436361000000000 0
 120G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lmdb-store\dependencies\lmdb\libraries\liblmdb\LICENSE121436361000000000 0
-82G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\Income_card.d0c33eb9.svg132807913829253232 0
 116G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\node-libs-browser\node_modules\safe-buffer132807906852710566 1
 119G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lmdb-store\dependencies\lmdb\libraries\liblmdb\lmdb.h121436361000000000 0
 118G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\lmdb-store\dependencies\lmdb\libraries\liblmdb\mdb.c121436361000000000 0
@@ -11018,7 +11007,6 @@
 101G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2021\Number\subtract.js121436361000000000 0
 103G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2021\Number\unaryMinus.js121436361000000000 0
 103G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2021\BigInt\bitwiseXOR.js121436361000000000 0
-77G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\Amazon.1a421ff8.svg132807913829253232 0
 88G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\types\index.js121436361000000000 0
 99G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2021\BigInt\divide.js121436361000000000 0
 105G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2021\BigInt\exponentiate.js121436361000000000 0
@@ -11151,7 +11139,6 @@
 105G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2019\IsGenericDescriptor.js121436361000000000 0
 93G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2016\WeekDay.js121436361000000000 0
 100G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2019\IsStringPrefix.js121436361000000000 0
-79G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\index.1e41795f.js.map132807913831672290 0
 87G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\cssnano\quickstart.js121436361000000000 0
 100G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2019\IterableToList.js121436361000000000 0
 102G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2019\IteratorComplete.js121436361000000000 0
@@ -11204,7 +11191,6 @@
 81G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\acorn\bin\acorn121436361000000000 0
 102G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\css-modules-loader-core\lib\index.js131399107300000000 0
 93G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2019\ToUint8.js121436361000000000 0
-85G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\JosephGonzalez.dd83de6f.jpg132807913831412146 0
 90G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2019\Type.js121436361000000000 0
 97G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\es-abstract\2019\UTF16Decode.js121436361000000000 0
 146G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\css-modules-loader-core\node_modules\chalk\node_modules\supports-color\readme.md130801785290000000 0
@@ -12788,7 +12774,6 @@
 97G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\modules\es.math.tanh.js121436361000000000 0
 106G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\modules\es.math.to-string-tag.js121436361000000000 0
 106G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\modules\es.number.constructor.js121436361000000000 0
-79G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\index.a03865b2.js.map132807913831602329 0
 101G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\modules\es.number.is-nan.js121436361000000000 0
 110G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\modules\es.number.is-safe-integer.js121436361000000000 0
 111G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\modules\es.number.min-safe-integer.js121436361000000000 0
@@ -13209,7 +13194,6 @@
 105G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\features\weak-map\delete-all.js121436361000000000 0
 107G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\bl\node_modules\readable-stream\errors.js121436361000000000 0
 102G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\features\weak-map\emplace.js121436361000000000 0
-75G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\index.a03865b2.js132807913831462123 0
 100G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\features\weak-map\index.js121436361000000000 0
 100G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\features\typed-array\at.js121436361000000000 0
 108G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\features\typed-array\filter-out.js121436361000000000 0
@@ -13352,7 +13336,6 @@
 102G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\features\reflect\own-keys.js121436361000000000 0
 112G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\features\reflect\prevent-extensions.js121436361000000000 0
 110G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\features\reflect\set-prototype-of.js121436361000000000 0
-87G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\Split-bills_card.47b0ab26.svg132807913829253232 0
 97G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\features\reflect\set.js121436361000000000 0
 107G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\features\reflect\to-string-tag.js121436361000000000 0
 105G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\core-js\features\promise\all-settled.js121436361000000000 0
@@ -13816,7 +13799,6 @@
 79G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\bytes\LICENSE131278550790000000 0
 96G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\commander\package-support.json121436361000000000 0
 88G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\commander\package.json132807907106219234 0
-75G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\index.1e41795f.js132807913831452128 0
 85G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\commander\Readme.md121436361000000000 0
 83G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\commander\typings132807906751115762 1
 90G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\command-exists\.jshintrc121436361000000000 0
@@ -14469,7 +14451,7 @@
 81G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\bn.js\README.md121436361000000000 0
 81G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\bn.js\lib\bn.js121436361000000000 0
 80G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\bl\.travis.yml121436361000000000 0
-68G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\index.html132807913829263087 0
+68G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\index.html132807911841364578 0
 82G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\bl\BufferList.js121436361000000000 0
 73G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\bl\test132807906680531246 1
 115G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\bl\node_modules\readable-stream\errors-browser.js121436361000000000 0
@@ -14574,7 +14556,6 @@
 98G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\asn1.js\lib\asn1\encoders\der.js121436361000000000 0
 100G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\asn1.js\lib\asn1\encoders\index.js121436361000000000 0
 98G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\asn1.js\lib\asn1\decoders\der.js121436361000000000 0
-87G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\transaction_icon.7b7ea1f7.svg132807913829253232 0
 97G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\asn1.js\lib\asn1\base\buffer.js121436361000000000 0
 95G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\asn1.js\lib\asn1\base\node.js121436361000000000 0
 82G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\asn1\Jenkinsfile121436361000000000 0
@@ -14735,7 +14716,6 @@
 122G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@swc\helpers\src\_class_static_private_field_spec_get.js132732112500000000 0
 122G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@swc\helpers\src\_class_static_private_field_spec_set.js132732112500000000 0
 96G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@swc\helpers\src\_construct.js132732112500000000 0
-84G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\AllefVinicius.903b550d.jpg132807913831402157 0
 95G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@swc\helpers\src\_decorate.js132732112500000000 0
 95G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@swc\helpers\src\_defaults.js132732112500000000 0
 94G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@babel\core\src\config\files132807906707931463 1
@@ -15327,7 +15307,6 @@
 120G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\core\test\fixtures\targets-default-distdir-two132807906755682257 1
 133G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\core\test\fixtures\targets-default-distdir-two\package.json121436361000000000 0
 113G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\core\test\fixtures\plugins\node_modules132807906702572791 1
-86G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\GabrielSilverio.8f986cf1.jpg132807913831432147 0
 156G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-no-engines\package.json121436361000000000 0
 108G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\core\test\fixtures\parcel\index.js121436361000000000 0
 112G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\core\test\fixtures\parcel\package.json121436361000000000 0
@@ -15425,7 +15404,6 @@
 114G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\babel-ast-utils\test\fixtures\control.js121436361000000000 0
 112G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\babel-ast-utils\test\fixtures\error.js121436361000000000 0
 114G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\babel-ast-utils\test\fixtures\literal.js121436361000000000 0
-83G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\PetrSevcovic.ef9a149c.jpg132807913831452128 0
 115G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\babel-ast-utils\test\fixtures\sequence.js121436361000000000 0
 115G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\babel-ast-utils\test\fixtures\variable.js121436361000000000 0
 112G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@parcel\babel-ast-utils\src\babelErrorUtils.js121436361000000000 0
@@ -15680,7 +15658,6 @@
 103G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@babel\core\src\config\files\index.ts121012626000000000 0
 96G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@babel\core\node_modules\debug132807906852638394 1
 96G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@babel\core\node_modules\json5132807907034087660 1
-80G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\loan_icon.d761725e.svg132807913829253232 0
 114G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@babel\core\node_modules\source-map\package.json132807906842283520 0
 115G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@babel\core\node_modules\source-map\source-map.js131369414910000000 0
 119G:\Project HTML Email Dev\1.4.QuickPick Landing Page\node_modules\@babel\core\node_modules\source-map\lib\base64-vlq.js131369414910000000 0
@@ -15784,17 +15761,12 @@
 70G:\Project HTML Email Dev\1.4.QuickPick Landing Page\js\testimonial.js132787083715522546 0
 84G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\AllefVinicius.42f2416b.jpg132807911838616149 0
 77G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\Amazon.40288b5d.svg132807911840075309 0
-83G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\ErikLucatero.9e535e21.jpg132807913831402157 0
 83G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\Expense_card.e2e7c815.svg132807911840085307 0
-79G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\Heineken.c385da08.svg132807913829253232 0
 82G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\Income_card.457c59c0.svg132807911840085307 0
 80G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\index.38b7d62d.css.map132807911841454523 0
 75G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\index.f96493a3.js132807911841364578 0
 79G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\index.f96493a3.js.map132807911841444528 0
 75G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\more.bdff5431.svg132807911840085307 0
 83G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\PetrSevcovic.97af858b.jpg132807911838616149 0
-84G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\Popup_manager.cfbdb532.svg132807913829263087 0
-79G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\software.00b92323.svg132807913829253232 0
-85G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\TalenDeStCroix.5228a311.jpg132807913831462123 0
 85G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\TalenDeStCroix.8e753d87.jpg132807911838616149 0
 87G:\Project HTML Email Dev\1.4.QuickPick Landing Page\dist\transaction_icon.205ec68e.svg132807911840075309 0

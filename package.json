@@ -2,10 +2,10 @@
  "name": "quickpick",
  "version": "1.0.0",
  "description": "landing page",
- "main": "index.js",
+ "default": "index.html",
  "scripts": {
   "start": "parcel --open firefox index.html",
-  "build": "parcel build index.html --out-dir ./dist"
+  "build": "parcel build index.html --dist-dir ./dist"
  },
  "repository": {
   "type": "git",
