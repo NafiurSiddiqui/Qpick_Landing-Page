@@ -1,18 +1,24 @@
 {
-  "name": "quickpick",
-  "version": "1.0.0",
-  "description": "landing page",
-  "main": "index.html",
-  "scripts": {
-    "start": "parcel --open firefox run index.html",
-    "build": "parcel build index.html --out-dir ./dist"
-  },
-  "author": "Nafi",
-  "license": "ISC",
-  "dependencies": {
-    "parcel-bundler": "^1.12.5"
-  },
-  "devDependencies": {
-    "sass": "^1.42.1"
-  }
+ "name": "quickpick",
+ "version": "1.0.0",
+ "description": "landing page",
+ "main": "index.js",
+ "scripts": {
+  "start": "parcel --open firefox index.html",
+  "build": "parcel build index.html --out-dir ./dist"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/TheHunter808/Q-pick---Landing-Page.git"
+ },
+ "author": "",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/TheHunter808/Q-pick---Landing-Page/issues"
+ },
+ "homepage": "https://github.com/TheHunter808/Q-pick---Landing-Page#readme",
+ "devDependencies": {
+  "@parcel/transformer-sass": "^2.0.0",
+  "parcel": "^2.0.0"
+ }
 }
