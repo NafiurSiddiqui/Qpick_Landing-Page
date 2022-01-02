@@ -16,16 +16,21 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+
     <link rel="icon" href="./src/Logo.svg">
     <link rel="stylesheet" href="sass/main.scss" />
     <script defer src="./js/navbar.js"></script>
     <script defer src="./js/testimonial.js"></script>
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7_dtp.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+</style>
     <title>Quick Pick</title>
   </head>
   <body>
     <section class="hero">
       <header class="header">
-      <img src="src/Logo.svg" alt="QuickPay Logo" class="header__logo" />
+      <img src="src/Logo.svg" alt="QuickPickLogo" class="header__logo" />
       <nav class="header__menu-container">
         <ul class="header__menu__li-container ">
           <li class="header__menu"><a href="#home"> Home </a></li>
@@ -601,7 +606,7 @@
             updates to meet your need.
           </p>
 
-          <div class="bottom__newsletter-input">
+          <!-- <div class="bottom__newsletter-input">
             <input
               type="email"
               name="email"
@@ -610,10 +615,28 @@
             />
 
             <button type="submit" class="bottom__newsletter-input__btn">subscribe</button>
+          </div> -->
+
+
+          <!-- Begin Mailchimp Signup Form -->
+
+<div id="mc_embed_signup">
+<form action="https://gmail.us20.list-manage.com/subscribe/post?u=e022218b0b9d96c94b116e1f5&amp;id=c20f296763" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e022218b0b9d96c94b116e1f5_c20f296763" tabindex="-1" value=""></div>
+        <div class="clear foot">
+           <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="bottom__newsletter-input__btn">
+        </div>
+        <br>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
           </div>
-          </div>
-          
-          
         </article>
 
         <footer class="footer">
