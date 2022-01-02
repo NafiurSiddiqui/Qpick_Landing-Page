@@ -1,2 +1,2 @@
 # Qpick__Landing-Page
-Landing Page for the upcoming Expense Manager Application
+Landing Page for the upcoming Expense Manager Application with Email Campaign added
