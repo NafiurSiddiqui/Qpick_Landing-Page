@@ -169,7 +169,7 @@
   }
   &-navigator-container {
    padding: 4em;
-   // margin-top: 2em;
+
   }
   &-navigator__left,
   &-navigator__right {
@@ -185,7 +185,7 @@
     background-color: #026cd7;
     cursor: pointer;
     color: whitesmoke;
-    font-size: $fontSize-mL + 0.1rem;
+    // font-size: $fontSize-mL + 0.1rem;
    }
 
    &:active {
@@ -205,7 +205,7 @@
    border-radius: 50%;
 
    &.active {
-    border: 3px solid rgba($color: #0367ebc2, $alpha: 0.6);
+    border: 3px solid rgba($color: #2583ff, $alpha: 9);
     @include transition-ease;
    }
   }
@@ -251,7 +251,6 @@
   &__slide-navigator-container {
    padding: 1.2em;
    margin-bottom: 1em;
-   // margin-top: 2em;
   }
  }
 }
