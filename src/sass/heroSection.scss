@@ -18,7 +18,7 @@
 		width: 100%;
 
 		&-headers {
-			@include sectionBorderTest;
+	
 			@include flexCentered;
 			flex-direction: column;
 
