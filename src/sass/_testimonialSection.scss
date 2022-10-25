@@ -64,7 +64,6 @@
   display: inline-block;
   position: relative;
   top: -3em;
-  // left: -14em;
   left: -31%;
 
   &.A {
@@ -239,9 +238,8 @@
  }
 
  @media screen and (max-width: 680px) {
-  // height: 200vh;
-  // margin-top: 127em;
-  margin-top: 150em;
+
+  margin-top: 5em;
   padding: 0 0 5em 1em;
 
   &__background__circle {
