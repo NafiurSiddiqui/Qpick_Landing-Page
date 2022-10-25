@@ -1,0 +1,146 @@
+$btn-bg: #0569cd;
+
+.pricing {
+  height: 100vh;
+  padding: 6em;
+  margin-top: 6em;
+
+  &__header {
+    color: $color-heading;
+    font-size: $fontSize-h1-m;
+    margin-bottom: 1em;
+  }
+
+  &__sub-heading {
+    color: $color-para;
+    font-size: $fontSize-h2;
+  }
+
+  table,
+  tr,
+  td {
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  tr,
+  td {
+    // border: $borderTest;
+    border-top: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+  }
+
+  &__cards {
+    // border: $borderTest;
+    @include flexCentered;
+  }
+
+  &__card {
+    border: 2px solid #464952;
+    border-radius: 0.6em;
+    padding: 2em;
+    // width: 40em;
+    width: 100%;
+    height: 70vh;
+    margin: 3em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include transition-ease;
+    &:hover {
+      background-color: $btn-bg;
+      height: 71vh;
+
+      .pricing__card__btn {
+        background-color: rgb(233, 233, 233);
+        color: rgb(54, 54, 54);
+      }
+      .pricing__card__icon-check_container {
+        color: rgb(1, 138, 31);
+      }
+    }
+    &-heading {
+      color: $color-heading;
+      margin-bottom: 1em;
+      font-size: $fontSize-mL;
+    }
+
+    &__sub-heading {
+      color: $color-para;
+      font-size: $fontSize-Sm;
+
+      &__price {
+        font-weight: bold;
+        font-size: $fontSize-Lm;
+      }
+    }
+
+    & .container {
+      padding: 1em;
+      // background-color: lawngreen;
+      width: 100%;
+      min-width: 15em;
+      color: $color-para;
+    }
+    &-service {
+      color: $color-para;
+      padding: 0.8em;
+      font-size: $fontSize-Sm;
+    }
+
+    &__icon-check {
+      font-size: $fontSize-Sm;
+      font-weight: bolder;
+      text-align: center;
+      &_container {
+        background: rgb(236, 235, 235);
+        border-radius: 50%;
+        padding: 0.1em 0.4em;
+        color: rgb(39, 39, 39);
+        margin-right: 1em;
+      }
+    }
+
+    &__btn {
+      padding: 0.8em;
+      width: 11em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 500;
+      color: ivory;
+      background-color: $btn-bg;
+      border-radius: 8px;
+      font-family: 'Reem Kufi', sans-serif;
+      border: 0;
+      @include transition-ease;
+      
+      &:hover {
+        color: rgb(15, 15, 15);
+        font-weight: bold;
+        border: 4px solid rgba(7, 117, 207, 0.616);
+      }
+    }
+  }
+
+  @media screen and (max-width: 820px) {
+    // margin-top: 15em;
+  }
+  @media screen and (max-width: 680px) {
+    &__cards {
+      flex-direction: column;
+    }
+    div#card-special {
+      .pricing__card-heading {
+        margin-bottom: 0;
+      }
+      .pricing__card.container {
+        padding: 0;
+      }
+      // .pricing__card {
+      //   font-size: 1.2rem;
+      // }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.hero {
+	height: 100vh;
+	position: relative;
+	z-index: 20;
+	background: linear-gradient(
+		295.61deg,
+		rgb(142, 72, 155),
+		rgba(16, 60, 120),
+		rgba(0, 166, 176, 0.94)
+	);
+
+	.hero__content {
+    margin-top: 5em;
+		@include flexCentered;
+		flex-direction: column;
+		width: 100%;
+
+		&-headers {
+			@include sectionBorderTest;
+			@include flexCentered;
+			flex-direction: column;
+
+			&__header {
+				font-size: $fontSize-h1;
+				font-family: 'Poppins', sans-serif;
+				letter-spacing: 1px;
+				margin-bottom: 0.4em;
+				color: $color-heading;
+				width: 70vw;
+				@media screen and (max-width: 540px) {
+					width: 90vw;
+				}
+			}
+
+			&__sub-header {
+				font-size: $fontSize-h2;
+				line-height: 3rem;
+				margin-bottom: 2em;
+				font-weight: 500;
+				width: 60vw;
+				color: #e9e9e7;
+				span {
+					font-weight: bold;
+					color: rgb(221, 233, 243);
+				}
+
+				@media screen and (max-width: 500px) {
+					font-size: 1.6rem;
+					width: 80vw;
+				}
+			}
+		}
+
+		&__btn-container {
+			margin-bottom: 18em;
+
+			button#hero__btn-vdo {
+				margin-left: 2em;
+			}
+		}
+
+		&__image {
+			width: 63em;
+			position: relative;
+			top: -12em;
+
+      @media screen and (max-width: 800px) {
+        width: 80%;
+      }
+
+		}
+	}
+
+	@media screen and (max-width: 360px) {
+		h1 {
+			font-size: $fontSize-Sm;
+		}
+		&__sub-header {
+			font-size: $fontSize-S;
+		}
+		&__btn-container {
+			margin-bottom: 21em;
+		}
+		.btn__sign-in {
+			padding: 0.6em;
+			width: 9em;
+			font-size: 1.1em;
+		}
+
+		.hero__btn-vdo {
+			margin-left: 2em;
+			font-size: 1.1em;
+			width: 10em;
+			padding: 0.6em;
+		}
+	}
+}

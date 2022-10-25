@@ -1,0 +1,24 @@
+{
+ "name": "quickpick",
+ "version": "1.0.0",
+ "description": "landing page",
+
+ "scripts": {
+  "start": "parcel --open firefox index.html",
+  "build": "parcel build index.html --dist-dir ./dist"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/TheHunter808/Q-pick---Landing-Page.git"
+ },
+ "author": "",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/TheHunter808/Q-pick---Landing-Page/issues"
+ },
+ "homepage": "https://github.com/TheHunter808/Q-pick---Landing-Page#readme",
+ "devDependencies": {
+  "@parcel/transformer-sass": "^2.0.0",
+  "parcel": "^2.0.0"
+ }
+}
