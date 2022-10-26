@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 .features {
-  // height: 110vh;
-  padding: 4em;
+
+  padding: 1em;
   position: relative;
   @include flexCentered;
 
@@ -10,6 +10,7 @@
     color: $color-heading;
     font-size: $fontSize-h2;
     letter-spacing: 2px;
+    padding-bottom: 4em;
   }
 
   &__text {
@@ -29,12 +30,13 @@
   &__text-card {
     @include flexCentered;
     align-items: start;
-
     margin: 1.5em;
+    padding: 2em 0;
+    
   }
 
   &__text-icon {
-    // border: $borderTest;
+
     width: 4em;
     height: 4em;
     padding: 1em;
@@ -44,8 +46,6 @@
 
     #more {
       height: 1.8em;
-
-      //   width: 2em;
     }
   }
 
@@ -57,7 +57,7 @@
 
   &__text-container {
     padding: 0.2em 0 1em 1em;
-    line-height: 1.8em;
+    line-height: 1.5em;
     font-size: 1.2rem;
     letter-spacing: 0.7px;
     width: 80%;
@@ -72,7 +72,7 @@
     font-weight: bold;
   }
   &__decoration {
-    // border: $borderTest;
+
 
     width: 50%;
     height: 100%;
@@ -87,12 +87,10 @@
       position: absolute;
       z-index: 30;
 
-      // @media screen and (max-width: 790px) {
-      //   grid-template-columns: 1fr;
-      // }
+ 
     }
     &-image {
-      // width: 23em;
+
       width: 70%;
       margin: 1em 0;
 
@@ -100,13 +98,10 @@
         width: 100%;
       }
     }
-    // #splitCard {
-    //   width: 25em;
-    // }
 
     &-gradient {
-      width: 70%;
-      height: 100%;
+      width: 86%;
+      height: 50em;
       background: linear-gradient(
         295.61deg,
         rgb(142, 72, 155),
@@ -115,14 +110,14 @@
       );
       border-radius: 0.8em;
       position: relative;
-      right: -11%;
+      
     }
   }
 
   @media screen and (max-width: 680px) {
     flex-direction: column;
-    height: 200vh;
-    padding: 2em;
+    // height: 200vh;
+    // padding: 2em;
     &__text {
       width: 100%;
       margin-bottom: 8em;
@@ -133,7 +128,7 @@
       height: 60vh;
       padding: 1em;
       &__image-container {
-        // grid-template-columns: 1fr 1fr;
+     
         grid-template-columns: minmax(120px, 1fr) minmax(120px, 1fr);
         width: 80%;
       }
@@ -148,7 +143,7 @@
   @media screen and (max-width: 380px) {
     height: max-content;
     padding: 0em;
-    // font-size: $fontSize-Sm;
+
 
     &__heading {
       font-size: $fontSize-Sm;
@@ -170,9 +165,7 @@
       }
     }
 
-    // &__decoration__image-container{
-    //   width: ;
-    // }
+
     &__decoration-image {
       width: 100%;
     }

@@ -10,6 +10,7 @@
  "scripts": {
   "start": "parcel --open firefox index.html",
   "build": "parcel build index.html --dist-dir ./dist"
+ 
  },
  "repository": {
   "type": "git",

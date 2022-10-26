@@ -2,169 +2,193 @@
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
 
 .header {
+	@include flexCentered;
+	height: 13vh;
+	width: 100%;
+	justify-content: space-between;
+	font-family: 'Reem Kufi', sans-serif;
+	padding: 1em;
 
-  @include flexCentered;
-  height: 13vh;
-  width: 100%;
-  justify-content: space-between;
-  font-family: 'Reem Kufi', sans-serif;
-  padding: 1em;
+	&__logo {
+		width: 100px;
+		margin-left: 2%;
+	}
 
-  &__logo { 
-    width: 100px;
-    margin-left: 2%;
-  }
+	ul > li > a {
+		color: rgb(233, 232, 232);
+		font-weight: 500;
+		@include transition-ease;
+		// padding-bottom: 0.3em;
+		opacity: 0.6;
+    position: relative;
+		&:after {
+			content: '';
+			display: inline-block;
+			width: 0;
+			height: 4px;
+			border-radius: 0.4em;
+			background-color: $colorHover;
+			position:absolute;	
+			left: 100px;
+      bottom: -4px;
+			opacity: 0;
+      transition: 0.3s;
+		}
 
-  ul > li > a {
-    color: rgb(233, 232, 232);
-    font-weight: 500;
-    @include transition-ease;
+		&:hover {
+      color: #ffd2e7;
+      opacity: 1;
+			&:after {
+        opacity: 1;
+        width: 70%;
+        left: 0;
+			
+			}
+		}
+
+
+	}
+
+	&__menu-container {
+		width: 60%;
+		height: 5em;
+		@include flexCentered;
+		z-index: 30;
+		@media screen and (max-width: 783px) {
+			transform: translateX(-25%);
+		}
+		@media screen and (max-width: 680px) {
+			width: 100vw;
+			transform: translateX(0);
+			position: absolute;
+			left: 0;
+		}
+	}
+	&__menu__li-container {
+		@include flexCentered;
+		font-size: 1.7rem;
+		@include transition-ease;
+		@media screen and (max-width: 680px) {
+			display: none;
+		}
+	}
+
+	&__menu {
+		@include transition-ease;
+		padding: 0 1.2rem;
     
-    &:hover {
-      color: #ffc3df;
-     
-    }
-  }
+	}
 
-  &__menu-container {
-    width: 60%;
-    height: 5em;
-    @include flexCentered;
-    @media screen and (max-width: 783px) {
-      transform: translateX(-25%);
-    }
-    @media screen and (max-width: 680px) {
-      width: 100vw;
-      transform: translateX(0);
-      position: absolute;
-      left: 0;
-    }
-  }
-  &__menu__li-container {
-    @include flexCentered;
-    font-size: 1.4em;
-    @include transition-ease;
-    @media screen and (max-width: 680px) {
-      display: none;
-    }
-  }
+	#navBtn__sign-in {
+		margin-right: 3em;
 
-  &__menu {
-    // @include borderTest;
-    padding: 1em;
-    // margin: 0 1em;
-    @include transition-ease;
-  }
+		@media screen and (max-width: 830px) {
+			margin-right: 1em;
+			width: 9em;
+		}
+		@media screen and (max-width: 783px) {
+			display: none;
+		}
+	}
 
-  #navBtn__sign-in {
-    margin-right: 3em;
+	&__menubars-container {
+		width: 4em;
+		height: 5em;
+		padding: 3em;
+		display: none;
+		cursor: pointer;
+		@include transition-ease;
+		&:hover {
+			border: 1px solid slateblue;
+			border-radius: 20%;
+			background: rgba(224, 224, 224, 0.192);
+		}
+		@include transition-ease;
 
-    @media screen and (max-width: 830px) {
-      margin-right: 1em;
-      width: 9em;
-    }
-    @media screen and (max-width: 783px) {
-      display: none;
-    }
-  }
+		@media screen and (max-width: 680px) {
+			display: inline-grid;
+			position: absolute;
+			right: 4%;
+			height: 5vh;
+			top: 0;
+			padding: 0.5em;
+			justify-content: center;
+			align-items: center;
+		}
+	}
 
-  &__menubars-container {
-    width: 4em;
-    height: 5em;
-    padding: 3em;
-    display: none;
-    // border: $borderTest;
-    @include transition-ease;
-    &:hover {
-      border: 1px solid slateblue;
-      border-radius: 20%;
-      background: rgba(224, 224, 224, 0.192);
-    }
-    @include transition-ease;
+	&__menubars {
+		&_top,
+		&_middle,
+		&_bottom {
+			width: 3em;
+			height: 0.4em;
+			background: rgb(226, 226, 226);
 
-    @media screen and (max-width: 680px) {
-      display: inline-grid;
-      position: absolute;
-      // justify-content: end;
-      right: 4%;
-      height: 5vh;
-      top: 0;
-      padding: 0.5em;
-      justify-content: center;
-      align-items: center;
-    }
-  }
+			border-radius: 0.3em;
+			@include transition-ease;
+		}
+	}
 
-  &__menubars {
-    &_top,
-    &_middle,
-    &_bottom {
-      width: 3em;
-      height: 0.4em;
-      background: rgb(226, 226, 226);
-      // display: inline-block;
-      border-radius: 0.3em;
-      @include transition-ease;
-    }
-  }
+	@media screen and (max-width: 380px) {
+		padding: 1em 1em 0 0;
+	}
 
-  @media screen and (max-width: 380px) {
-    padding: 1em 1em 0 0;
-  }
+	&.open {
+		div.header__menubars_top {
+			transform: rotate(45deg);
+			position: relative;
+			top: 18px;
+			margin-bottom: 1em;
+		}
+		div.header__menubars_middle {
+			display: none;
+		}
+		div.header__menubars_bottom {
+			transform: rotate(-45deg);
+		}
 
-  &.open {
-    div.header__menubars_top {
-      transform: rotate(45deg);
-      position: relative;
-      top: 18px;
-      margin-bottom: 1em;
-    }
-    div.header__menubars_middle {
-      display: none;
-    }
-    div.header__menubars_bottom {
-      transform: rotate(-45deg);
-      margin-bottom: 1em;
-    }
+		ul.header__menu__li-container {
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			z-index: 20;
+			background: #050b18;
+			height: 100vh;
+			padding: 5em 0 0 0;
+			li {
+				background: #050b18;
+				width: 100%;
+				font-size: 1.8rem;
+				padding: 0 !important;
+				> a {
+					@include flexCentered;
+					width: 100%;
+					height: 4em;
 
-    ul.header__menu__li-container {
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      z-index: 10;
-      background: #050b18;
-      height: 60vh;
-      padding: 5em 0 0 0;
-      li {
-        background: #050b18;
-        width: 100%;
-        font-size: 1.8rem;
-        padding: 1.2em 0;
+					&:hover {
+						background: linear-gradient(166deg, #005c75, rgb(1, 60, 122));
+					}
+				}
+			}
+		}
+		.header__menubars-container {
+			margin-bottom: 1em;
+			border-radius: 50%;
 
-        &:hover {
-          background: linear-gradient(166deg, #005c75, rgb(1, 60, 122));
-          // transform: scale(1.1);
-          box-shadow: 0px 1px 8px 1px rgba(239, 239, 239, 0.308);
-        }
-      }
-    }
-    .header__menubars-container {
-      margin-bottom: 1em;
-      border-radius: 50%;
+			&:hover {
+				border: none;
+				border-radius: 0;
+				background-color: transparent;
+			}
 
-      &:hover {
-        border: none;
-        border-radius: 0;
-        background-color: transparent;
-      }
+			z-index: 20;
+		}
 
-      z-index: 20;
-    }
-
-    .header__menu-container {
-      top: 0;
-    }
-  }
+		.header__menu-container {
+			top: 0;
+		}
+	}
 }
