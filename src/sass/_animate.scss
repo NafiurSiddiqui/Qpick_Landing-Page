@@ -1,0 +1,58 @@
+//hero_image
+.hero{
+
+	&__content__image{
+		transform: perspective(1100px) rotateX(-50deg);
+		transition:0.5s;
+	}
+}
+
+.flip {
+	transform: perspective(1100px) rotateX(0deg);
+}
+
+//circles
+
+.background__circle-left{
+    transform: translate(-100%);
+    animation: roll 2s linear forwards;
+    transition: 2s;
+}
+
+.rollToTheRight{
+    // animation: roll 2s linear;
+    transform: translate(10%);
+}
+
+.background__circle-right{
+    transform: translate(-100%);
+    // transform: translate(10%);
+    animation: roll 2s linear forwards;
+    transition: 2s;
+}
+
+.slopeToTheRight{
+    transform: translate(-10%) translateY(20%);
+}
+
+//section3
+
+.features {
+    opacity: 0.1;
+    transition: 1s;
+}
+
+.brighter {
+    opacity:1
+}
+
+.features__text-card{
+    transform: translate(-90%);
+    opacity: 0;
+    transition: 1s ease-in 0.1s;
+}
+
+.cardsSlideIn{
+    transform: translate(0%);
+    opacity: 1;
+}

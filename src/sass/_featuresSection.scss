@@ -10,6 +10,7 @@
     color: $color-heading;
     font-size: $fontSize-h2;
     letter-spacing: 2px;
+    padding-bottom: 4em;
   }
 
   &__text {
@@ -29,8 +30,9 @@
   &__text-card {
     @include flexCentered;
     align-items: start;
-
     margin: 1.5em;
+    padding: 2em 0;
+    
   }
 
   &__text-icon {
