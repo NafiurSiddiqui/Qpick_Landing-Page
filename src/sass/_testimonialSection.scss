@@ -3,8 +3,9 @@
  color: $color-para;
  padding: 11em 6em 5em 6em;
  margin-top: 2em;
-
-
+opacity: 0.1;
+transform: translateY(50%);
+transition: 0.8s ease-in;
  &__content {
   position: static;
   z-index: 20;
@@ -16,6 +17,7 @@
 
  &__sub-heading {
   font-size: $fontSize-Sm;
+  margin-bottom: 2em;
  }
 
  &__cards {
@@ -205,37 +207,13 @@
    border-radius: 50%;
 
    &.active {
-    border: 3px solid rgba($color: #2583ff, $alpha: 9);
     @include transition-ease;
+    background-color: $colorHover;
    }
   }
  }
 
- &__background__circle {
-  background: linear-gradient(
-   318deg,
-   rgba(113, 2, 133, 0.61),
-   rgba(13, 78, 168, 0.81),
-   rgba(0, 166, 175, 0.87)
-  );
-  width: 28em;
-  height: 28em;
-  border-radius: 50%;
-  @include flexCentered;
-  position: absolute;
-  // position: relative;
-  right: -12em;
-  // bottom: -339em;
-  bottom: -426%;
-  z-index: 10;
-  &-background {
-   position: relative;
-   background: linear-gradient(rgb(5, 13, 33), rgb(5, 13, 33), rgb(5, 13, 33));
-   width: 98%;
-   height: 98%;
-   border-radius: 50%;
-  }
- }
+
 
  @media screen and (max-width: 680px) {
 

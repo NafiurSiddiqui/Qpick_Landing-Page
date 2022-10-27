@@ -1,8 +1,10 @@
 .bottom {
 	position: relative;
 	z-index: 20;
-	margin-top: 6em;
-
+	margin-top: 12em;
+	opacity: 0.1;
+	transform: translateY(50%);
+	transition: .8s linear;
 	&__newsletter {
 		@include flexCentered;
 		background: linear-gradient(

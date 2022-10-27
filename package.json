@@ -2,11 +2,7 @@
  "name": "quickpick",
  "version": "1.0.0",
  "description": "landing page",
-<<<<<<< HEAD
-
-=======
  "default": "index.html",
->>>>>>> ffa7f62bf868f6ae4f9a319354e649e53081f12f
  "scripts": {
   "start": "parcel --open firefox index.html",
   "build": "parcel build index.html --dist-dir ./dist"

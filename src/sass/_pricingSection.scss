@@ -52,7 +52,7 @@ $btn-bg: #0569cd;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    @include transition-ease;
+    transition: 0.8s;
     background-color: $primary;
     cursor: pointer;
     &:hover {

@@ -10,15 +10,18 @@
 		rgba(16, 60, 120),
 		rgba(0, 166, 176, 0.94)
 	);
+	border: 2px solid greenyellow;
 
 	.hero__content {
-    margin-top: 5em;
+		// margin-top: 5em;
+		height: 90vh;
+
+		// margin-top: 10vh;
 		@include flexCentered;
 		flex-direction: column;
 		width: 100%;
 
 		&-headers {
-	
 			@include flexCentered;
 			flex-direction: column;
 
@@ -62,13 +65,19 @@
 		}
 
 		&__image {
-			width: 63em;
-			position: relative;
-			top: -12em;
+			width: 63em;			
+			position: absolute;
+			// bottom: -40vh;
+			bottom: -20em;
 
-      @media screen and (max-width: 800px) {
-        width: 80%;
-      }
+			@media screen and (max-width: 900px) {
+				width: 80%;
+				// bottom: -20vh;
+			}
+
+			@media (max-width:1025px) {
+				bottom: -25em;
+			}
 
 		}
 	}
@@ -96,7 +105,6 @@
 			padding: 0.6em;
 		}
 	}
+
+	
 }
-
-
-
