@@ -77,24 +77,42 @@ button.hero__btn-vdo {
 	background-color: $primary;
 }
 
+.sub-header {
+		font-size: $fontSize-h2;
+		line-height: 3rem;
+		margin-bottom: 2em;
+		font-weight: 500;
+		color: #e9e9e7;
+		
+		@media screen and (max-width: 500px) {
+			font-size: 1.6rem;
+			width: 80vw;
+		}
+	}
+
+//large and widescreens
 @media screen and (min-width: 1600px) {
 		
 	ul.header__menu__li-container, button.btn__sign-in,button.hero__btn-vdo {
 		font-size:1.7rem;
 	}
 
+	h1{
+		font-size: 3.5rem !important;
+	}
+
+
+	.sub-header{
+		
+		font-size: 2.5rem !important;
+		line-height: 3.4rem !important;
+	}
 	
 	.hero__content{
 
 		&-headers{
-			&__header{
-				font-size: 4rem !important;
-			}
-	
-			&__sub-header{
-	
-				font-size: 2.5rem !important;
-				line-height: 3.4rem !important;
+			p.sub-header{
+				width: 40vw !important;
 			}
 		}
 
@@ -108,6 +126,14 @@ button.hero__btn-vdo {
 
 	.features {
 		padding: 0 2vw !important;
+
+		&__text-container{
+			font-size: 2rem !important;
+		}
+
+		&__text-text{
+			font-size: 2.2rem !important;
+		}
 	}
 
 	.pricing {
@@ -115,6 +141,34 @@ button.hero__btn-vdo {
 		&-contents{
 			width: 80%;
 		}
+
+		&__card {
+
+			&-heading{
+
+				font-size: 3rem !important;
+			}
+
+			&__sub-heading{
+				font-size: 2rem !important;
+			}
+		}
+
+		td{
+			font-size: 2.1rem;
+
+			
+		}
+
+	
+
+		
+		
+	}
+
+	.testimonial__cards{
+		@include flexCentered;
+		width: 100% !important;
 	}
 
 	
@@ -150,5 +204,12 @@ button.hero__btn-vdo {
 		
 	}
 
+	.testimonial {
+
+		&__cards{
+
+			@include flexCentered;
+		}
+	}
 	
 }
