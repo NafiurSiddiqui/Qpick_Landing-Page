@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  @media screen and (max-width: 675px) {
+    .hero__header,
+    .big__corp.header,
+    .pricing__header,
+    .bottom__newsletter-header {
+      font-size: $fontSize-h1 - 1rem;
+    }
+
+    h2 {
+      font-size: $fontSize-h2 - 1rem;
+    }
+  }
+}
+
+body {
+  font-family: 'Red Hat Text', sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.btn__sign-in {
+  padding: 0.8em;
+  width: 11em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: ivory;
+  background-color: #0b233b;
+  border-radius: 8px;
+  font-family: 'Reem Kufi', sans-serif;
+  &:hover {
+    background-color: #0a5cad;
+    padding: 1em;
+  }
+}
+
+button.hero__btn-vdo {
+  padding: 0.8em;
+  width: 11em;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: #026cd7;
+  background-color: $color-heading;
+  border-radius: 8px;
+  font-family: 'Reem Kufi', sans-serif;
+  &:hover {
+    background-color: #026cd7;
+    color: white;
+    padding: 1em;
+  }
+}
+
+.content_container {
+  background-color: $primary;
+}
