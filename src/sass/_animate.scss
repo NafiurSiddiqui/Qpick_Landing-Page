@@ -25,12 +25,11 @@
 
 .background__circle-right{
     transform: translate(-100%);
-    animation: roll 2s linear forwards;
     transition: 2s;
 }
 
 .slopeToTheRight{
-    transform: translate(-10%) translateY(20%);
+    transform: translate(-8vw) translateY(20vh);
 }
 
 //section3

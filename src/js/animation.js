@@ -20,10 +20,10 @@ const bottomSection = document.querySelector('.bottom');
 
 
 
-const options ={
-threshold:0.2,
-rootMargin: "-200px"
-}
+// const options ={
+// threshold:0.2,
+// rootMargin: "-200px"
+// }
 
 
 const threshold = (val)=>{
@@ -41,12 +41,16 @@ const imgObserver = new IntersectionObserver(
         if(entry.isIntersecting){
             entry.target.classList.add('flip');
             circleRight.classList.add('slopeToTheRight');
+            console.log('IMAGE');
         }else{
             entry.target.classList.remove('flip');
            
         }
     })
- },options
+ },{
+   threshold:0,
+   rootMargin:"0px 0px -200px 0px"
+ }
 );
 
 

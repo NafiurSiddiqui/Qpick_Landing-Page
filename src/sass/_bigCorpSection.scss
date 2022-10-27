@@ -3,7 +3,9 @@
   width: 100%;
   @include flexCentered;
   flex-direction: column;
-  margin: 20em 0 0 0;
+  margin: 12em 0 0 0;
+
+  
   &__content {
  
     height: 60vh;
@@ -43,7 +45,7 @@
 
     #heineken {
  
-      padding-bottom: 0.8em;
+      // padding-bottom: 0.8em;
     }
   }
   .background__circle-right {
@@ -122,14 +124,23 @@
     }
   }
 
+  @media screen and (max-width:1000px) {
+    margin: 0;
+  }
   
-
-
+  
   @media screen and (max-width: 600px) {
     &__content {
       height: 40vh;
     }
   }
+
+  @media screen and (max-width:400px) {
+    
+  }
+
+
+
   @media screen and (max-width: 360px) {
     &__content {
       height: 25vh;
@@ -143,8 +154,6 @@
       width: 15em;
       height: 15em;
 
-      // margin-left: 26%;
-      // top: 57%;
     }
     .background__circle-left {
       width: 15em;

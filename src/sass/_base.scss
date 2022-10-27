@@ -76,3 +76,68 @@ button.hero__btn-vdo {
 .content_container {
 	background-color: $primary;
 }
+
+@media screen and (min-width: 1600px) {
+		
+	ul.header__menu__li-container, button.btn__sign-in,button.hero__btn-vdo {
+		font-size:1.7rem;
+	}
+
+	
+	.hero__content{
+
+		&-headers{
+			&__header{
+				font-size: 4rem !important;
+			}
+	
+			&__sub-header{
+	
+				font-size: 2.5rem !important;
+				line-height: 3.4rem !important;
+			}
+		}
+
+		&__image{
+			width:40% !important;
+			bottom: -35em !important;
+		}
+		
+		
+	}
+
+	
+}
+
+
+@media screen and (min-width: 2000px) {
+		
+	ul.header__menu__li-container, button.btn__sign-in,button.hero__btn-vdo {
+		font-size:2rem;
+	}
+
+	
+	.hero__content{
+
+		&-headers{
+			&__header{
+				font-size: 6rem !important;
+			}
+	
+			&__sub-header{
+	
+				font-size: 3.5rem !important;
+				line-height: 5rem !important;
+			}
+		}
+
+		&__image{
+			width:40% !important;
+			bottom: -35em !important;
+		}
+		
+		
+	}
+
+	
+}
