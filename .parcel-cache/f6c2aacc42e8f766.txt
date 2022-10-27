@@ -22,7 +22,7 @@
 70D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\parse-json133111141077412179 1
 50D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src133113607379816207 1
 111D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\package-manager\src\MockPackageInstaller.js133111141084341447 0
-51D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist133113690015107741 1
+51D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist133113796453540910 1
 80D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\globals\package.json133111141077861742 0
 62D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\Testimonial133113607379507376 1
 85D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\sass\types\value\map.d.ts133111141090388610 0
@@ -78,7 +78,7 @@
 96D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\css-tree\lib\lexer\generic-urange.js133111141088626434 0
 97D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@swc\helpers\lib\_set_prototype_of.js133111141091287757 0
 97D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\utils\src\progress-message.js133111141089084080 0
-69D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\sass\_animate.scss133113603783435843 0
+69D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\sass\_animate.scss133113786656257126 0
 81D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\json5\lib\register.js133111141080275767 0
 81D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\css-what\package.json133111141081632092 0
 61D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\amazon.svg133113607379587384 0
@@ -103,7 +103,7 @@
 101D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\caniuse-lite\data\features\css-filters.js133111141093460636 0
 66D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@babel133111141068837557 1
 73D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\lmdb\index.js133111141091976884 0
-76D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\sass\_bigCorpSection.scss133113685372523655 0
+76D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\sass\_bigCorpSection.scss133113787686903481 0
 84D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\ordered-binary\README.md133111141080524389 0
 90D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\css-what\lib\commonjs\index.js133111141076671380 0
 112D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\lmdb\node_modules\node-addon-api\tools\check-napi.js133111141082338451 0
@@ -151,7 +151,7 @@
 74D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\domhandler\lib133111141080700343 1
 59D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\more.svg133113607379634970 0
 81D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\Testimonial\TalenDeStCroix.jpg133113607379507376 0
-72D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\sass\heroSection.scss133113690182706768 0
+72D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\sass\heroSection.scss133113779526035666 0
 84D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\timsort\build\timsort.js133111141079315287 0
 121D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\package-manager\test\fixtures\packages\a\package.json133111141087409370 0
 61D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\paypal.svg133113607379706470 0
@@ -223,7 +223,7 @@
 91D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\caniuse-lite\data\regions\KW.js133111141101045213 0
 81D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\Testimonial\JosephGonzalez.jpg133113607379300678 0
 84D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\packager-svg\src133111141109954210 1
-66D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\sass\_base.scss133112902560075577 0
+66D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\sass\_base.scss133113796449135568 0
 90D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\type-fest\source\asyncify.d.ts133111141078660621 0
 94D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\core\test\fixtures\context133111141094156513 1
 71D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\assets\loan_icon.svg133111138599504483 0
@@ -258,7 +258,7 @@
 95D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\htmlparser2\lib\WritableStream.d.ts133111141083495789 0
 78D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\utility-types\dist133111141083774843 1
 108D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\tooltag133111141083485840 0
-76D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\sass\_pricingSection.scss133113566336625547 0
+76D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\sass\_pricingSection.scss133113789086202279 0
 95D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\source-map\dist\source-map.debug.js133111141084104559 0
 78D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\diagnostic133111141078769550 1
 84D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\terser\tools\terser.d.ts133111141089701539 0
@@ -359,7 +359,7 @@
 95D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\type-fest\source\promise-value.d.ts133111141085357506 0
 111D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\caniuse-lite\data\features\css-media-interaction.js133111141094533448 0
 101D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\caniuse-lite\data\features\css3-colors.js133111141096097707 0
-76D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Income_card.40125bce.svg133113588719744280 0
+76D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Income_card.40125bce.svg133113733146686974 0
 88D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\src\assets\Testimonial\TalenDeStCroix.jpg133111138604082817 0
 105D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\caniuse-lite\data\features\css-placeholder.js133111141095221337 0
 104D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\caniuse-lite\data\features\css-dir-pseudo.js133111141093200551 0
@@ -494,7 +494,7 @@
 104D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\lmdb\node_modules\node-addon-api\except.gypi133111141077474579 0
 112D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest_enc.c133111141089445308 0
 105D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\core\test\fixtures\library-scopehoist133111141094670539 1
-78D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\AllefVinicius.ffacd725.jpg133113588718598892 0
+78D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\AllefVinicius.ffacd725.jpg133113733145479307 0
 65D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\chalk133111141079624361 1
 92D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\type-fest\source\promisable.d.ts133111141085210654 0
 68D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\chokidar133111141080500285 1
@@ -659,7 +659,7 @@
 80D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\parse-json\readme.md133111141077577009 0
 82D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\mdn-data\l10n\index.js133111141078612424 0
 98D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\cosmiconfig\dist\ExplorerBase.d.ts.map133111141083062632 0
-69D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\more.b1bedfbe.svg133113588718114440 0
+69D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\more.b1bedfbe.svg133113733145049197 0
 108D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\terser\node_modules\commander\typings\index.d.ts133111141079562720 0
 74D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\yaml\scalar.js133111141085807698 0
 136D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.win32-x64-msvc.node133111141090923923 0
@@ -731,7 +731,7 @@
 106D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\caniuse-lite\data\features\web-app-manifest.js133111141107878002 0
 79D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\js-tokens\README.md133111141078346031 0
 89D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@swc\helpers\src\_type_of.mjs133111141094680711 0
-77D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\expense_card.81821d39.svg133113588719288914 0
+77D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\expense_card.81821d39.svg133113733146114886 0
 77D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\terser\PATRONS.md133111141089453786 0
 89D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\update-browserslist-db\cli.js133111141077044137 0
 90D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\source-map\lib\mapping-list.js133111141080785981 0
@@ -1246,7 +1246,7 @@
 70D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\terser\lib133111141089033886 1
 74D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\terser\LICENSE133111141076414221 0
 89D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\mdn-data\css\definitions.json133111141081665698 0
-62D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\index.html133113668105273958 0
+62D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\index.html133113733146114886 0
 79D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\terser\node_modules133111141068851061 1
 80D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@lmdb\lmdb-win32-x64133111141085333334 1
 79D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\terser\package.json133111141089291115 0
@@ -1411,7 +1411,7 @@
 87D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\watcher\src\windows133111141085658063 1
 98D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@jridgewell\sourcemap-codec\dist\types133111141080359894 1
 91D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\utils\test\input\config133111141091456769 1
-74D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\loan_icon.f5c2f6ea.svg133113588719744280 0
+74D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\loan_icon.f5c2f6ea.svg133113733146686974 0
 81D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\svgo\plugins\_path.js133111141079176936 0
 87D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\svgo\plugins\_transforms.js133111141079970864 0
 109D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\runtime-js\lib\helpers\bundle-manifest.js133111141109742009 0
@@ -1841,7 +1841,7 @@
 82D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\normalize-path\LICENSE133111141076954721 0
 81D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\glob-parent\README.md133111141078165342 0
 88D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\node-releases\data\processed133111141076552954 1
-71D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\amazon.d9352017.svg133113588718114440 0
+71D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\amazon.d9352017.svg133113733145022380 0
 87D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\cosmiconfig\dist\types.d.ts133111141086815197 0
 117D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\node-releases\data\release-schedule\release-schedule.json133111141078490966 0
 84D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\msgpackr-extract\LICENSE133111141077460159 0
@@ -1936,7 +1936,7 @@
 98D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\css-tree\lib\syntax\node\MediaQuery.js133111141090708092 0
 86D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\csso\lib\replace\Number.js133111141086707393 0
 82D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\msgpackr\dist\index.js133111141078795566 0
-79D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\JosephGonzalez.2923f502.jpg133113588718461210 0
+79D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\JosephGonzalez.2923f502.jpg133113733145382515 0
 86D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\msgpackr\dist\index.js.map133111141084188766 0
 102D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@babel\helper-validator-identifier\scripts133111141081160446 1
 91D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\caniuse-lite\data\regions\HN.js133111141099406515 0
@@ -2246,7 +2246,7 @@
 81D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\import-fresh\index.js133111141076414221 0
 80D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\import-fresh\license133111141075938292 0
 105D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\transformer-css\src\CSSTransformer.js133111141099632386 0
-81D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\transaction_icon.d08bf7aa.svg133113588718114440 0
+81D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\transaction_icon.d08bf7aa.svg133113733145022380 0
 77D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\immutable\LICENSE133111141075902952 0
 110D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\utils\test\replaceBundleReferences.test.js133111141089557945 0
 91D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\caniuse-lite\data\regions\DO.js133111141096931118 0
@@ -2884,7 +2884,7 @@
 91D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\caniuse-lite\data\regions\GU.js133111141099142323 0
 84D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\transformer-sass133111141077794420 1
 129D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\foo\package.json133111141095438272 0
-86D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Emanager_feature_card.1eeb0c27.svg133113588719288914 0
+86D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Emanager_feature_card.1eeb0c27.svg133113733146114886 0
 91D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\caniuse-lite\data\regions\GW.js133111141099168071 0
 138D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false-glob\a133111141094024290 1
 91D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\caniuse-lite\data\regions\HR.js133111141099431013 0
@@ -3584,7 +3584,7 @@
 103D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@swc\helpers\src\_sliced_to_array_loose.mjs133111141094284786 0
 116D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\package-manager\test\fixtures\has-foo\subpackage133111141087265312 1
 142D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-fallback\package.json133111141095554349 0
-69D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\index.739bf03c.js133113671446764414 0
+69D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\index.739bf03c.js133113733145625516 0
 105D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@swc\helpers\src\_tagged_template_literal.mjs133111141094407661 0
 87D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@swc\helpers\src\_throw.mjs133111141094432881 0
 90D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@swc\helpers\src\_to_array.mjs133111141094478762 0
@@ -3710,8 +3710,8 @@
 105D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\runtime-browser-hmr\lib\HMRRuntime.js133111141109903992 0
 88D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\workers\src\index.js133111141083535274 0
 87D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\workers\src\process133111141085143659 1
-73D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Heineken.4b315dbb.svg133113588719744280 0
-70D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Chart.1f5b8d62.svg133113588718114440 0
+73D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Heineken.4b315dbb.svg133113733146686974 0
+70D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Chart.1f5b8d62.svg133113733145049197 0
 91D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\workers\src\Profiler.js133111141085463072 0
 87D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\workers\src\threads133111141086262046 1
 88D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\workers\src\types.js133111141086860417 0
@@ -3972,7 +3972,7 @@
 84D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\reporter-cli\lib133111141137610226 1
 84D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\reporter-cli\src133111141137557136 1
 105D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\reporter-cli\test\CLIReporter.test.js133111141137515630 0
-69D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Logo.866a06a9.svg133113588718114440 0
+69D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Logo.866a06a9.svg133113733145022380 0
 100D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\reporter-cli\src\bundleReport.js133111141135299039 0
 97D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\reporter-cli\src\logLevels.js133111141137538397 0
 94D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@parcel\reporter-cli\src\render.js133111141137557136 0
@@ -4386,7 +4386,7 @@
 109D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@babel\highlight\node_modules\chalk\index.js.flow133111141077133236 0
 108D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@babel\highlight\node_modules\chalk\package.json133111141076074626 0
 108D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@babel\highlight\node_modules\chalk\templates.js133111141079126460 0
-77D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\ErikLucatero.81d7b880.jpg133113588718114440 0
+77D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\ErikLucatero.81d7b880.jpg133113733145137108 0
 110D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@babel\highlight\node_modules\ansi-styles\index.js133111141076478209 0
 114D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@babel\highlight\node_modules\ansi-styles\package.json133111141076074626 0
 111D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\@babel\highlight\node_modules\ansi-styles\readme.md133111141077677653 0
@@ -4428,23 +4428,23 @@
 69D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\.bin\svgo133111141304160870 0
 73D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\.bin\svgo.cmd133111141304160870 0
 73D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\.bin\svgo.ps1133111141304148297 0
-79D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\splitBill_icon.fb99a2f6.svg133113588719288914 0
+79D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\splitBill_icon.fb99a2f6.svg133113733146114886 0
 75D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\.bin\terser.cmd133111141304160870 0
 75D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\node_modules\.bin\terser.ps1133111141304160870 0
 59D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\js\navbar.js133113607377530005 0
-80D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\GabrielSilverio.3b334d87.jpg133113588719828378 0
-75D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Hero_image.da8cd9e4.png133113588717867837 0
+80D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\GabrielSilverio.3b334d87.jpg133113733146805212 0
+75D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Hero_image.da8cd9e4.png133113733144733566 0
 69D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\index.43ff36c8.js133112654068210738 0
-73D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\index.739bf03c.js.map133113671446794598 0
+73D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\index.739bf03c.js.map133113733145635674 0
 69D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\index.e7bddddf.js133112654068263132 0
 73D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\index.e7bddddf.js.map133112654068344247 0
-70D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\index.f7626f62.css133113690015076692 0
-74D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\index.f7626f62.css.map133113690015102551 0
-71D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\nestle.a6aba7da.svg133113588719277485 0
-71D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\paypal.78bb6f27.svg133113588719277485 0
-77D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\PetrSevcovic.743d49fa.jpg133113588717867837 0
-78D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Popup_manager.ec5d9d8d.svg133113588718114440 0
+70D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\index.f7626f62.css133113796453456982 0
+74D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\index.f7626f62.css.map133113796453540910 0
+71D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\nestle.a6aba7da.svg133113733146114886 0
+71D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\paypal.78bb6f27.svg133113733146114886 0
+77D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\PetrSevcovic.743d49fa.jpg133113733144813727 0
+78D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Popup_manager.ec5d9d8d.svg133113733145059347 0
 83D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Q-pick_landing-page.3464ddca.js133112654068274992 0
 87D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Q-pick_landing-page.3464ddca.js.map133112654068344247 0
-81D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Split-bills_card.5cbb777a.svg133113588719744280 0
-79D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\TalenDeStCroix.6fee3d71.jpg133113588717950743 0
+81D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\Split-bills_card.5cbb777a.svg133113733146686974 0
+79D:\FrontEnd\Portfolio V2.1\Q-pick_landing-page\dist\TalenDeStCroix.6fee3d71.jpg133113733144934662 0
