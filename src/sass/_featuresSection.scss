@@ -5,7 +5,7 @@
   padding: 1em;
   position: relative;
   @include flexCentered;
-
+  margin-bottom: 19rem;
   &__heading {
     color: $color-heading;
     font-size: $fontSize-h2;
@@ -73,11 +73,12 @@
   }
   &__decoration {
 
-
+    transition: 1s ease-in;
     width: 50%;
     height: 100%;
     position: static;
     z-index: 20;
+    opacity: 0;
     @include flexCentered;
     &__image-container {
       display: grid;
@@ -116,11 +117,10 @@
 
   @media screen and (max-width: 680px) {
     flex-direction: column;
-    // height: 200vh;
-    // padding: 2em;
+   
     &__text {
       width: 100%;
-      margin-bottom: 8em;
+      margin-bottom: 13em;
     }
 
     &__decoration {

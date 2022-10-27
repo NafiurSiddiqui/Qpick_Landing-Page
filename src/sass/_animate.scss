@@ -20,13 +20,11 @@
 }
 
 .rollToTheRight{
-    // animation: roll 2s linear;
     transform: translate(10%);
 }
 
 .background__circle-right{
     transform: translate(-100%);
-    // transform: translate(10%);
     animation: roll 2s linear forwards;
     transition: 2s;
 }
@@ -55,4 +53,48 @@
 .cardsSlideIn{
     transform: translate(0%);
     opacity: 1;
+}
+
+
+
+//section 4
+
+
+.pricing__card:first-child {
+    opacity: 0;
+    transform: translate(-100%);
+}
+
+.pricing__card:nth-child(2) {
+    opacity: 0;
+    transform: translateY(100%);
+}
+
+.pricing__card:last-child {
+    opacity: 0;
+    transform: translate(100%);
+}
+
+
+.firstCardSLideIn {
+    transform: translate(0%) !important;
+    opacity: 1 !important;
+}
+
+.slideUp {
+    transform: translateY(0%) !important;
+    opacity: 1 !important;
+}
+.thirdCardSlideIn {
+    transform: translate(0%) !important;
+    opacity: 1 !important;
+}
+
+
+//testimonial circle
+
+.slideDownLeft {
+    top: 262em !important;
+    right: -15em !important;
+    opacity: 1 ;
 }
