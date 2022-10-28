@@ -87,9 +87,7 @@ transition: 0.8s ease-in;
    background-image: url('../assets/Testimonial/TalenDeStCroix.jpg');
   }
 
-  // @media screen and (max-width: 480px) {
-  //   left: 0;
-  // }
+
  }
 
  &__text {
@@ -121,7 +119,6 @@ transition: 0.8s ease-in;
   @include flexCentered;
   .star {
    width: 24px;
-   //   border: $borderTest;
    font-size: x-large;
    color: rgb(128, 128, 128);
    display: inline-block;
