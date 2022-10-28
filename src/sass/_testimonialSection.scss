@@ -6,10 +6,7 @@
 opacity: 0.1;
 transform: translateY(50%);
 transition: 0.8s ease-in;
- &__content {
-  position: static;
-  z-index: 20;
- }
+
  &__heading {
   font-size: $fontSize-Lm;
   margin-bottom: 1em;

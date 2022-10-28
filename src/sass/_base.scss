@@ -14,18 +14,6 @@
 html {
 	box-sizing: border-box;
 	font-size: 62.5%;
-	@media screen and (max-width: 675px) {
-		.hero__header,
-		.big__corp.header,
-		.pricing__header,
-		.bottom__newsletter-header {
-			font-size: $fontSize-h1 - 1rem;
-		}
-
-		h2 {
-			font-size: $fontSize-h2 - 1rem;
-		}
-	}
 }
 
 body {
@@ -33,6 +21,8 @@ body {
 	text-align: center;
 	overflow-x: hidden;
 	background-color: $primary;
+	width: 100vw;
+
 }
 
 a {
@@ -52,16 +42,14 @@ button {
 	border-radius: 5px;
 	font-family: 'Reem Kufi', sans-serif;
 	cursor: pointer;
-  transition: all 0.1s  ease-in-out ;
+	transition: all 0.1s ease-in-out;
 	border: 2px solid #99a7b5;
 
-  &:hover {
+	&:hover {
 		border: 2px solid #092c4c;
 		background-color: #012548;
 	}
 }
-
-
 
 button.hero__btn-vdo {
 	letter-spacing: 0.8px;
@@ -69,208 +57,171 @@ button.hero__btn-vdo {
 	background-color: #e9e9e938;
 	&:hover {
 		background-color: #026cd7;
-    border: 2px solid #8292a1;
+		border: 2px solid #8292a1;
 	}
 }
-
-
 
 .content_container {
 	background-color: $primary;
 }
 
 .sub-header {
-		font-size: $fontSize-h2;
-		line-height: 3rem;
-		margin-bottom: 2em;
-		font-weight: 500;
-		color: #e9e9e7;
-		
-		@media screen and (max-width: 500px) {
-			font-size: 1.6rem;
-			width: 80vw;
-		}
-	}
+	font-size: $fontSize-h2;
+	line-height: 3rem;
+	margin-bottom: 2em;
+	font-weight: 500;
+	color: #e9e9e7;
 
+	@media screen and (max-width: 500px) {
+		font-size: 1.6rem;
+		width: 80vw;
+	}
+}
 
 @media screen and (max-width: 600px) {
 	article.features__text {
 		z-index: 40;
 	}
 
-	div.background__circle-bottom{
+	div.background__circle-bottom {
 		opacity: 0.2 !important;
 	}
 
-	div.testimonial__slide-navigator-container{
+	div.testimonial__slide-navigator-container {
 		margin-top: 3em;
 	}
 
-	span.testimonial__slide-navigator{
+	span.testimonial__slide-navigator {
 		font-size: 4rem;
 	}
 
-	section.bottom{
-		margin-top: 10em ;
+	section.bottom {
+		margin-top: 10em;
 	}
 }
 
-@media screen and (max-width:450px) {
-	h1{
+@media screen and (max-width: 450px) {
+	h1 {
 		font-size: 2.6rem !important;
 	}
 
-	h1.features__heading{
+	h1.features__heading {
 		padding-bottom: 3rem;
+	}
+
+	.sub-header {
+		width: 100%;
 	}
 }
 
-
-
 //large and widescreens
 @media screen and (min-width: 1600px) {
-		
-	ul.header__menu__li-container{
+	ul.header__menu__li-container {
 		font-size: 2.2rem;
 		width: 55%;
 		justify-content: space-between !important;
 	}
 
-	
 	button {
-		width: 14vw ;
-		padding: 1.5em ;
+		width: 14vw;
+		padding: 1.5em;
 		font-size: 1.8rem;
 		border-radius: 0.6em;
-		
-	   }
+	}
 
-	   button.bottom__newsletter-input__btn{
-		
+	button.bottom__newsletter-input__btn {
 		width: 11em;
 		font-size: 1.4rem;
-	   } 
+	}
 
-
-
-	h1{
+	h1 {
 		font-size: 3.5rem !important;
 	}
 
-
-	.sub-header{
-		
+	.sub-header {
 		font-size: 2.5rem !important;
 		line-height: 3.4rem !important;
 	}
-	
-	.hero__content{
 
-		&-headers{
-			p.sub-header{
+	.hero__content {
+		&-headers {
+			p.sub-header {
 				width: 40vw !important;
 			}
 		}
 
-		&__image{
-			width:40% !important;
+		&__image {
+			width: 40% !important;
 			bottom: -35em !important;
 		}
-		
-		
 	}
 
 	.features {
 		padding: 0 2vw !important;
 
-		&__text-container{
+		&__text-container {
 			font-size: 2rem !important;
 		}
 
-		&__text-text{
+		&__text-text {
 			font-size: 2.2rem !important;
 		}
 	}
 
 	.pricing {
-
-		&-contents{
+		&-contents {
 			width: 80%;
 		}
 
 		&__card {
-
 			height: 80vh !important;
 
-			&-heading{
-
+			&-heading {
 				font-size: 3rem !important;
 			}
 
-			&__sub-heading{
+			&__sub-heading {
 				font-size: 2rem !important;
 			}
 		}
 
-		td{
+		td {
 			font-size: 2.1rem;
-
-			
 		}
-
-	
-
-		
-		
 	}
 
-	
-	.testimonial__cards{
+	.testimonial__cards {
 		@include flexCentered;
 		width: 100% !important;
 	}
-
-	
 }
 
-
 @media screen and (min-width: 2000px) {
-		
-	ul.header__menu__li-container{
+	ul.header__menu__li-container {
 		font-size: 2.5rem;
-		
 	}
 
-
-	
-	.hero__content{
-
-		&-headers{
-			&__header{
+	.hero__content {
+		&-headers {
+			&__header {
 				font-size: 6rem !important;
 			}
-	
-			&__sub-header{
-	
+
+			&__sub-header {
 				font-size: 3.5rem !important;
 				line-height: 5rem !important;
 			}
 		}
 
-		&__image{
-			width:40% !important;
+		&__image {
+			width: 40% !important;
 			bottom: -35em !important;
 		}
-		
-		
 	}
 
 	.testimonial {
-
-		&__cards{
-
+		&__cards {
 			@include flexCentered;
 		}
 	}
-	
 }
