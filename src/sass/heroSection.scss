@@ -10,13 +10,11 @@
 		rgba(16, 60, 120),
 		rgba(0, 166, 176, 0.94)
 	);
-	border: 2px solid greenyellow;
+
 
 	.hero__content {
-		// margin-top: 5em;
-		height: 90vh;
 
-		// margin-top: 10vh;
+		height: 90vh;
 		@include flexCentered;
 		flex-direction: column;
 		width: 100%;
@@ -37,20 +35,17 @@
 				}
 			}
 
-			&__sub-header {
-				font-size: $fontSize-h2;
-				line-height: 3rem;
-				margin-bottom: 2em;
-				font-weight: 500;
-				width: 60vw;
-				color: #e9e9e7;
+			 p.sub-header {
+				
+				width: 60vw ;
+				
 				span {
 					font-weight: bold;
 					color: rgb(221, 233, 243);
 				}
 
 				@media screen and (max-width: 500px) {
-					font-size: 1.6rem;
+				
 					width: 80vw;
 				}
 			}
@@ -67,7 +62,7 @@
 		&__image {
 			width: 63em;			
 			position: absolute;
-			// bottom: -40vh;
+		
 			bottom: -20em;
 
 			@media screen and (max-width: 900px) {

@@ -32,6 +32,13 @@
     transform: translate(-8vw) translateY(20vh);
 }
 
+
+.slideDownLeft {
+    top: 300vh !important;
+    right: -15em !important;
+    opacity: 1 ;
+}
+
 //section3
 
 .features {
@@ -91,9 +98,3 @@
 
 
 //testimonial circle
-
-.slideDownLeft {
-    top: 262em !important;
-    right: -15em !important;
-    opacity: 1 ;
-}
