@@ -298,7 +298,7 @@
 			&__top-container {
 				@include flexCentered;
 				flex-direction: column-reverse;
-				// background-color: blueviolet;
+			
 			}
 
 			&__left {
@@ -310,6 +310,8 @@
 			}
 		}
 
+
+	
 		@media screen and (max-width: 300px) {
 			&__right__download__btn-container {
 				@include flexCentered;
@@ -323,10 +325,30 @@
 		}
 	}
 
-	// @media screen and (max-width: 790px) {
-	//   // height: 124vh;
-	// }
+
 	@media screen and (max-width: 470px) {
 		margin-top: 2em;
+
+		.footer {
+
+			&__middle-header{
+				margin-bottom: 0.8rem;
+			}
+
+			&__middle-nav{
+				padding:0.7rem 0;
+			} 
+
+			&__left-text{
+				padding: 0.8rem;
+				line-height: 2rem;
+			}
+		}
 	}
+
+	@media screen and (max-width:380px) {
+		margin-top: 18rem !important;
+	}
+
+
 }

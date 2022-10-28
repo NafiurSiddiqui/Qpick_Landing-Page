@@ -65,13 +65,18 @@
 		
 			bottom: -20em;
 
-			@media screen and (max-width: 900px) {
-				width: 80%;
-				// bottom: -20vh;
-			}
-
 			@media (max-width:1025px) {
 				bottom: -25em;
+			}
+
+			@media screen and (max-width: 900px) {
+				width: 80%;
+			
+			}
+
+			@media screen and (max-width: 450px) {
+			
+				bottom: -10em ;
 			}
 
 		}
