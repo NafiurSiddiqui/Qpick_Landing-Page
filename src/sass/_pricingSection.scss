@@ -14,11 +14,7 @@ $btn-bg: #0569cd;
     margin-bottom: 1em;
   }
 
-  // .sub-header {
-  //   color: $color-para;
-  //   font-size: $fontSize-h2;
-  //   margin-bottom: 2em;
-  // }
+ 
 
   table,
   tr,
@@ -46,8 +42,7 @@ $btn-bg: #0569cd;
     border-radius: 0.6em;
     padding: 2em;
     width: 100%;
-    // height: 90vh;
-    height: 80vh;
+    height: 90vh;
     margin: 3em 2em;
     display: flex;
     flex-direction: column;
@@ -85,6 +80,8 @@ $btn-bg: #0569cd;
         font-weight: bold;
         font-size: $fontSize-Lm;
       }
+
+
     }
 
     & .container {
@@ -111,7 +108,11 @@ $btn-bg: #0569cd;
         margin-right: 1em;
       }
     }
-
+    
+    @media screen and (max-width: 500px) {
+      width: 80%;
+      height: 70vh;
+    }
     
   }
 

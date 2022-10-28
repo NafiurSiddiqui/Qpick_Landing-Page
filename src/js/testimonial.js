@@ -1,7 +1,7 @@
 const slideA = document.querySelector('.testimonial__slide-A');
 const slideB = document.querySelector('.testimonial__slide-B');
-const navLeft = document.querySelector('.testimonial__slide-navigator__left');
-const navRight = document.querySelector('.testimonial__slide-navigator__right');
+const navLeft = document.querySelector('.testimonial__slide-navigator.left');
+const navRight = document.querySelector('.testimonial__slide-navigator.right');
 const dotLeft = document.querySelector('.testimonial__slide-dot__left');    
 const dotRight = document.querySelector('.testimonial__slide-dot__right');   
 

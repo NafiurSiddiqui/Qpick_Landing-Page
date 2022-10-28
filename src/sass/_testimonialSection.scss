@@ -173,8 +173,8 @@ transition: 0.8s ease-in;
    padding: 4em;
 
   }
-  &-navigator__left,
-  &-navigator__right {
+  &-navigator
+  {
    font-size: $fontSize-mL;
    font-weight: bold;
    background-color: whitesmoke;
@@ -187,13 +187,21 @@ transition: 0.8s ease-in;
     background-color: #026cd7;
     cursor: pointer;
     color: whitesmoke;
-    // font-size: $fontSize-mL + 0.1rem;
+
    }
 
    &:active {
     background-color: rgba(1, 79, 156, 0.904);
     color: whitesmoke;
     font-size: $fontSize-mL + 0.1rem;
+   }
+
+   @media screen and (min-width:1600px) {
+        font-size: 3.2rem;
+   }
+
+   @media screen and (min-width:2000px) {
+        font-size: 4.2rem;
    }
   }
 

@@ -73,6 +73,8 @@ button.hero__btn-vdo {
 	}
 }
 
+
+
 .content_container {
 	background-color: $primary;
 }
@@ -90,12 +92,66 @@ button.hero__btn-vdo {
 		}
 	}
 
+
+@media screen and (max-width: 600px) {
+	article.features__text {
+		z-index: 40;
+	}
+
+	div.background__circle-bottom{
+		opacity: 0.2 !important;
+	}
+
+	div.testimonial__slide-navigator-container{
+		margin-top: 3em;
+	}
+
+	span.testimonial__slide-navigator{
+		font-size: 4rem;
+	}
+
+	section.bottom{
+		margin-top: 10em ;
+	}
+}
+
+@media screen and (max-width:450px) {
+	h1{
+		font-size: 2.6rem !important;
+	}
+
+	h1.features__heading{
+		padding-bottom: 3rem;
+	}
+}
+
+
+
 //large and widescreens
 @media screen and (min-width: 1600px) {
 		
-	ul.header__menu__li-container, button.btn__sign-in,button.hero__btn-vdo {
-		font-size:1.7rem;
+	ul.header__menu__li-container{
+		font-size: 2.2rem;
+		width: 55%;
+		justify-content: space-between !important;
 	}
+
+	
+	button {
+		width: 14vw ;
+		padding: 1.5em ;
+		font-size: 1.8rem;
+		border-radius: 0.6em;
+		
+	   }
+
+	   button.bottom__newsletter-input__btn{
+		
+		width: 11em;
+		font-size: 1.4rem;
+	   } 
+
+
 
 	h1{
 		font-size: 3.5rem !important;
@@ -144,6 +200,8 @@ button.hero__btn-vdo {
 
 		&__card {
 
+			height: 80vh !important;
+
 			&-heading{
 
 				font-size: 3rem !important;
@@ -166,6 +224,7 @@ button.hero__btn-vdo {
 		
 	}
 
+	
 	.testimonial__cards{
 		@include flexCentered;
 		width: 100% !important;
@@ -177,9 +236,11 @@ button.hero__btn-vdo {
 
 @media screen and (min-width: 2000px) {
 		
-	ul.header__menu__li-container, button.btn__sign-in,button.hero__btn-vdo {
-		font-size:2rem;
+	ul.header__menu__li-container{
+		font-size: 2.5rem;
+		
 	}
+
 
 	
 	.hero__content{
