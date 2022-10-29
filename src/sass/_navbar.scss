@@ -125,10 +125,7 @@
 		}
 	}
 
-	@media screen and (max-width: 400px) {
-		padding: 1em 1em 0 0;
-	}
-
+	
 	&.open {
 		div.header__menubars_top {
 			transform: rotate(45deg);

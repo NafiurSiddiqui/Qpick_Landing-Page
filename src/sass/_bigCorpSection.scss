@@ -43,10 +43,7 @@
       padding-top: 0.8em;
     }
 
-    #heineken {
- 
-      // padding-bottom: 0.8em;
-    }
+   
   }
   .background__circle-right {
     background: linear-gradient(
@@ -59,11 +56,11 @@
     height: 50em;
     border-radius: 50%;
     position: absolute;
-    margin-left: 26%;
-    // transform: translateX(10em);
-    top: 60%;
+    right: 15%;
+    top: 8%;
     text-align: center;
-    z-index: 10;
+    transition: 3s;
+    opacity: 0;
     @include flexCentered;
     &-background {
       background: linear-gradient(
@@ -77,22 +74,20 @@
     }
 
     @media screen and (max-width: 800px) {
-      // margin-left: 20%;
-      width: 40em;
-      height: 40em;
-      top: 62%;
+      width: 35em;
+      height: 35em;
+      top: 8%;
     }
     @media screen and (max-width: 520px) {
-      margin-left: -1%;
-      width: 30em;
-      height: 30em;
-      top: 70%;
+     
+      width: 25em;
+      height: 25em;
+     
     }
     @media screen and (max-width: 380px) {
-      margin-left: 10%;
       width: 20em;
       height: 20em;
-      top: 70%;
+      top: 9%;
     }
   }
 
@@ -108,9 +103,10 @@
     border-radius: 50%;
     @include flexCentered;
     position: absolute;
-    top: 140%;
+    top: 80em;
     left: -15em;
-
+    opacity: 0;
+    transition: 3s;
     &-background {
       position: relative;
       background: linear-gradient(
@@ -122,11 +118,25 @@
       height: 98%;
       border-radius: 50%;
     }
+
+    @media screen and (max-width: 680px) {
+     
+      width: 22em;
+      height: 22em;
+      left: -12em;
+      
+    }
+
+    @media screen and (max-width: 680px) {
+     
+      width: 20em;
+      height: 20em;
+      left: -12em;
+      
+    }
   }
 
-  @media screen and (max-width:1000px) {
-    margin: 0;
-  }
+
   
   
   @media screen and (max-width: 600px) {
@@ -135,9 +145,6 @@
     }
   }
 
-  @media screen and (max-width:400px) {
-    
-  }
 
 
 
@@ -186,10 +193,10 @@
   @include flexCentered;
   position: absolute;
   right: -20em;
-  top: 219em;
+  top: 170em;
   opacity: 0;
   z-index: 10;
-  transition: 3s ease-in 1s;
+  transition: 4s ease-in-out 1s;
   &__circle {
    position: relative;
    background: linear-gradient(rgb(5, 13, 33), rgb(5, 13, 33), rgb(5, 13, 33));

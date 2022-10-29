@@ -1,134 +1,121 @@
 $btn-bg: #0569cd;
 
 .pricing {
-  position: relative;
-  z-index: 20;
-  margin-top: 8em;
-  @include flexCentered;
+	position: relative;
+	z-index: 20;
+	margin-top: 8em;
+	@include flexCentered;
 
- 
+	&__header {
+		color: $color-heading;
+		font-size: $fontSize-h1-m;
+		margin-bottom: 1em;
+	}
 
-  &__header {
-    color: $color-heading;
-    font-size: $fontSize-h1-m;
-    margin-bottom: 1em;
-  }
+	table,
+	tr,
+	td {
+		margin: 0;
+		padding: 0;
+		border: none;
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	tr,
+	td {
+		border-top: 1em solid transparent;
+		border-bottom: 1em solid transparent;
+	}
 
- 
+	&__cards {
+		@include flexCentered;
+	}
 
-  table,
-  tr,
-  td {
-    margin: 0;
-    padding: 0;
-    border: none;
-    border-collapse: collapse;
-    border-spacing: 0;
-  }
-  tr,
-  td {
+	&__card {
+		border: 2px solid #464952;
+		border-radius: 0.6em;
+		padding: 2em;
+		width: 100%;
+		height: 90vh;
+		margin: 3em 2em;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		transition: 0.8s;
+		background-color: $primary;
+		cursor: pointer;
+		&:hover {
+			background-color: $btn-bg;
 
-    border-top: 1em solid transparent;
-    border-bottom: 1em solid transparent;
-  }
+			.container {
+				background-color: $btn-bg;
+			}
+			.pricing__card__btn {
+				background-color: rgb(233, 233, 233);
+				color: rgb(54, 54, 54);
+			}
+			.pricing__card__icon-check_container {
+				color: rgb(1, 138, 31);
+			}
+		}
 
-  &__cards {
+		&-heading {
+			color: $color-heading;
+			margin-bottom: 1em;
+			font-size: $fontSize-mL;
+		}
 
-    @include flexCentered;
-  }
+		&__sub-heading {
+			color: $color-para;
+			font-size: $fontSize-Sm;
 
-  &__card {
-    border: 2px solid #464952;
-    border-radius: 0.6em;
-    padding: 2em;
-    width: 100%;
-    height: 90vh;
-    margin: 3em 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: 0.8s;
-    background-color: $primary;
-    cursor: pointer;
-    &:hover {
-      background-color: $btn-bg;
+			&__price {
+				font-weight: bold;
+				font-size: $fontSize-Lm;
+			}
+		}
 
-      .container{
-        background-color: $btn-bg;
-      }
-      .pricing__card__btn {
-        background-color: rgb(233, 233, 233);
-        color: rgb(54, 54, 54);
-      }
-      .pricing__card__icon-check_container {
-        color: rgb(1, 138, 31);
-      }
-    }
+		& .container {
+			padding: 1em;
+			width: 100%;
+			min-width: 15em;
+			color: $color-para;
+		}
+		&-service {
+			color: $color-para;
+			padding: 0.8em;
+			font-size: $fontSize-Sm;
+		}
 
-    &-heading {
-      color: $color-heading;
-      margin-bottom: 1em;
-      font-size: $fontSize-mL;
-    }
+		&__icon-check {
+			font-size: $fontSize-Sm;
+			font-weight: bolder;
+			text-align: center;
+			&_container {
+				background: rgb(236, 235, 235);
+				border-radius: 50%;
+				padding: 0.1em 0.4em;
+				color: rgb(39, 39, 39);
+				margin-right: 1em;
+			}
+		}
 
-    &__sub-heading {
-      color: $color-para;
-      font-size: $fontSize-Sm;
+		@media screen and (max-width: 500px) {
+			width: 80%;
+			// height: 70vh;
+		}
+	}
 
-      &__price {
-        font-weight: bold;
-        font-size: $fontSize-Lm;
-      }
+	@media screen and (max-width: 680px) {
+		margin-top: 14rem;
 
+		&-contents {
+			width: 40em;
+		}
 
-    }
-
-    & .container {
-      padding: 1em;
-      width: 100%;
-      min-width: 15em;
-      color: $color-para;
-    }
-    &-service {
-      color: $color-para;
-      padding: 0.8em;
-      font-size: $fontSize-Sm;
-    }
-
-    &__icon-check {
-      font-size: $fontSize-Sm;
-      font-weight: bolder;
-      text-align: center;
-      &_container {
-        background: rgb(236, 235, 235);
-        border-radius: 50%;
-        padding: 0.1em 0.4em;
-        color: rgb(39, 39, 39);
-        margin-right: 1em;
-      }
-    }
-    
-    @media screen and (max-width: 500px) {
-      width: 80%;
-      height: 70vh;
-    }
-    
-  }
-
-
-
-  @media screen and (max-width: 680px) {
-
-    margin-top: 14rem;
-    
-    &-contents{
-      width: 40em;
-    }
-    
-    &__cards {
-      flex-direction: column;
-    }
-  
-  }
+		&__cards {
+			flex-direction: column;
+		}
+	}
 }
