@@ -1,6 +1,3 @@
-
-node_modules/
-dist/
-.cache/
-.parcel-cache/
-.parcel-cache/data.mdb
+dist
+node_modules
+.parcel-cache
