@@ -168,7 +168,7 @@ const bottomObserver = new IntersectionObserver(
 			if (!entry.isIntersecting) {
 				return;
 			} else {
-				entry.target.classList.add('slideUp');
+				entry.target.classList.add('brighter');
 				bottomObserver.unobserve(entry.target);
 			}
 		});
