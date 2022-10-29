@@ -48,10 +48,13 @@ const imgObserver = new IntersectionObserver(
 const section2Observer = new IntersectionObserver((entries, observer) => {
 	entries.forEach((entry) => {
 		if (!entry.isIntersecting) {
-			circleLeft.classList.remove('rollToTheRight');
+			
 			return;
 		} else {
 			circleLeft.classList.add('rollToTheRight');
+			console.log(entry.target);
+			section2Observer.unobserve(entry.target);
+			
 		}
 	});
 }, threshold(0.5));

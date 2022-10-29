@@ -19,10 +19,14 @@ html {
 body {
 	font-family: 'Red Hat Text', sans-serif;
 	text-align: center;
-	overflow-x: hidden;
 	background-color: $primary;
-	width: 100vw;
+	
+}
 
+html, body{
+	width: 100vw;
+	overflow-x: hidden !important;
+	position: relative; 
 }
 
 a {
@@ -46,7 +50,7 @@ button {
 	border: 2px solid #99a7b5;
 
 	&:hover {
-		border: 2px solid #092c4c;
+		border: 2px solid #889db1;
 		background-color: #012548;
 	}
 }
@@ -54,10 +58,11 @@ button {
 button.hero__btn-vdo {
 	letter-spacing: 0.8px;
 	color: #ecf5ff;
-	background-color: #e9e9e938;
+	background-color: #46464638;
 	&:hover {
-		background-color: #026cd7;
-		border: 2px solid #8292a1;
+	
+		border: 2px solid #889db1;
+		background-color: #012548;
 	}
 }
 

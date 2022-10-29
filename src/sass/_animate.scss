@@ -13,28 +13,29 @@
 
 //circles
 
-.background__circle-left{
-    transform: translate(-100%);
-    animation: roll 2s linear forwards;
-    transition: 2s;
-}
+// .background__circle-left{
+//     transform: translate(-100%);
+//     animation: roll 2s linear forwards;
+//     transition: 2s;
+// }
 
 .rollToTheRight{
-    transform: translate(10%);
+    transform: translate(10%) translateY(26em);
+    opacity: 0.7 !important;
 }
 
-.background__circle-right{
-    transform: translate(-100%);
-    transition: 2s;
-}
+
 
 .slopeToTheRight{
-    transform: translate(-8vw) translateY(20vh);
+
+    transform: translate(30vw) translateY(30%);
+    opacity: 0.7 !important;
+
 }
 
 
 .slideDownLeft {
-    top: 300vh !important;
+    top: 380vh !important;
     right: -15em !important;
     opacity: 1 ;
 }
@@ -97,4 +98,4 @@
 }
 
 
-//testimonial circle
+
