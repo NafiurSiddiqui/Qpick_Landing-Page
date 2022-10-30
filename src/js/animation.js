@@ -2,7 +2,7 @@ const heroImage = document.querySelector('.hero__content__image');
 const circleLeft = document.querySelector('.background__circle-left');
 const circleRight = document.querySelector('.background__circle-right');
 const circleBottom = document.querySelector('.background__circle-bottom');
-
+console.log(circleBottom);
 const section2 = document.querySelector('.big__corp');
 
 const section3TxtCards = document.querySelectorAll('.features__text-card');
