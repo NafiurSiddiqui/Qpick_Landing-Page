@@ -52,7 +52,7 @@ const section2Observer = new IntersectionObserver((entries, observer) => {
 			return;
 		} else {
 			circleLeft.classList.add('rollToTheRight');
-			console.log(entry.target);
+		
 			section2Observer.unobserve(entry.target);
 			
 		}
