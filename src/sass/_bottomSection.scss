@@ -2,9 +2,8 @@
 	position: relative;
 	z-index: 20;
 	margin-top: 12em;
-	opacity: 0.1;
-	transform: translateY(50%);
-	transition: .8s linear;
+	opacity: 0;
+	transition: 2s ease-in 0.5s;
 	&__newsletter {
 		@include flexCentered;
 		background: linear-gradient(
@@ -32,7 +31,6 @@
 			font-family: 'Poppins', sans-serif;
 			letter-spacing: 1px;
 			margin-bottom: 0.4em;
-			margin-top: -2em;
 			color: $color-heading;
 
 			@media screen and (max-width: 500px) {

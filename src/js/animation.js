@@ -52,7 +52,7 @@ const section2Observer = new IntersectionObserver((entries, observer) => {
 			return;
 		} else {
 			circleLeft.classList.add('rollToTheRight');
-			console.log(entry.target);
+		
 			section2Observer.unobserve(entry.target);
 			
 		}
@@ -168,7 +168,7 @@ const bottomObserver = new IntersectionObserver(
 			if (!entry.isIntersecting) {
 				return;
 			} else {
-				entry.target.classList.add('slideUp');
+				entry.target.classList.add('brighter');
 				bottomObserver.unobserve(entry.target);
 			}
 		});
