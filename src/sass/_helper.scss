@@ -1,24 +1,30 @@
 @mixin flexCentered {
-  display: flex;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin flex($jc, $ai, $direction) {
+	display: flex;
+	justify-content: $jc;
+	align-items: $ai;
+	flex-direction: $direction;
 }
 
 @mixin borderTest {
-  border: 1px solid rgb(250, 151, 151);
+	border: 1px solid rgb(250, 151, 151);
 }
 
 @mixin sectionBorderTest {
-  border-top: 2px solid khaki;
-  border-bottom: 2px solid khaki;
+	border-top: 2px solid khaki;
+	border-bottom: 2px solid khaki;
 }
 
-
 @mixin transition-ease {
-  transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
 }
 //background color
 $primary: #050b18;
