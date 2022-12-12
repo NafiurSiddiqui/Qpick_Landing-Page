@@ -5,15 +5,26 @@ const menubarMiddle = document.querySelector('.header__menubars_middle');
 const menubarBottom = document.querySelector('.header__menubars_bottom');
 const header = document.querySelector('.header');
 
-let openMenu = false;
-let windowSize = window.innerWidth < 680;
+let openMenu = window.innerWidth < 680 ? true : false;
+
+let mobileMenuActive = false;
+
+let windowSize = window.addEventListener('resize', () => {
+	openMenu = window.innerWidth < 680 ? true : false;
+
+	mobileMenuActive && !openMenu
+		? header.classList.contains('open')
+			? header.classList.remove('open')
+			: (mobileMenuActive = false)
+		: null;
+});
 
 menubarContainer.addEventListener('click', () => {
-	if (!openMenu && windowSize) {
+	if (openMenu && !mobileMenuActive) {
 		header.classList.add('open');
-		openMenu = true;
+		mobileMenuActive = true;
 	} else {
 		header.classList.remove('open');
-		openMenu = false;
+		mobileMenuActive = false;
 	}
 });

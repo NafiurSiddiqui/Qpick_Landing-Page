@@ -19,7 +19,6 @@ const section4LastCard = document.querySelector('.pricing__card:last-child');
 const testimonial = document.querySelector('.testimonial');
 const bottomSection = document.querySelector('.bottom');
 
-
 const threshold = (val) => {
 	const options = {
 		threshold: val,
@@ -48,13 +47,11 @@ const imgObserver = new IntersectionObserver(
 const section2Observer = new IntersectionObserver((entries, observer) => {
 	entries.forEach((entry) => {
 		if (!entry.isIntersecting) {
-			
 			return;
 		} else {
 			circleLeft.classList.add('rollToTheRight');
-		
+
 			section2Observer.unobserve(entry.target);
-			
 		}
 	});
 }, threshold(0.5));
